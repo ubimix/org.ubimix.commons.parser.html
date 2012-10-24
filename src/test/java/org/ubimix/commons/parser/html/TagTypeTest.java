@@ -3,6 +3,8 @@
  */
 package org.ubimix.commons.parser.html;
 
+import org.ubimix.commons.parser.balancer.TagType;
+
 import junit.framework.TestCase;
 
 /**

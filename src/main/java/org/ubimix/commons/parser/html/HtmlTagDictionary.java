@@ -602,12 +602,7 @@ public class HtmlTagDictionary {
             LINK,
             META));
 
-        HEADERS.add(H1);
-        HEADERS.add(H2);
-        HEADERS.add(H3);
-        HEADERS.add(H4);
-        HEADERS.add(H5);
-        HEADERS.add(H6);
+        HEADERS.addAll(Arrays.asList(H1, H2, H3, H4, H5, H6));
 
         BLOCK_ELEMENTS.addAll(HEADERS);
         BLOCK_ELEMENTS.addAll(Arrays.asList(

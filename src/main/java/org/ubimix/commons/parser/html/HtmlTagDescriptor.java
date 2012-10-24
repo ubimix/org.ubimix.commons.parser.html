@@ -2,6 +2,9 @@ package org.ubimix.commons.parser.html;
 
 import java.util.HashSet;
 
+import org.ubimix.commons.parser.balancer.TagDescriptor;
+import org.ubimix.commons.parser.balancer.TagType;
+
 public class HtmlTagDescriptor extends TagDescriptor {
 
     public TagType BLOCK = new TagType("block");

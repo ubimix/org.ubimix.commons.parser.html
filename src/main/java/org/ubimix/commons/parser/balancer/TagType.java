@@ -1,4 +1,4 @@
-package org.ubimix.commons.parser.html;
+package org.ubimix.commons.parser.balancer;
 
 import java.util.Arrays;
 import java.util.LinkedHashSet;

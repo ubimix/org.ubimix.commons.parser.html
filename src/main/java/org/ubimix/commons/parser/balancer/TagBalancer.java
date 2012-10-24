@@ -1,4 +1,4 @@
-package org.ubimix.commons.parser.html;
+package org.ubimix.commons.parser.balancer;
 
 /**
  * @author kotelnikov

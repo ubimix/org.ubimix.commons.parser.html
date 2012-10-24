@@ -14,6 +14,7 @@ import org.ubimix.commons.parser.ICharStream;
 import org.ubimix.commons.parser.ICharStream.IPointer;
 import org.ubimix.commons.parser.ITokenizer;
 import org.ubimix.commons.parser.StreamToken;
+import org.ubimix.commons.parser.balancer.TagBalancer;
 import org.ubimix.commons.parser.base.SequenceTokenizer;
 import org.ubimix.commons.parser.html.XHTMLEntities;
 import org.ubimix.commons.parser.text.TextTokenizer;

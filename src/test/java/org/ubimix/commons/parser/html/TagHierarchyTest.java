@@ -5,7 +5,8 @@ package org.ubimix.commons.parser.html;
 
 import junit.framework.TestCase;
 
-import org.ubimix.commons.parser.html.TagBalancer.IListener;
+import org.ubimix.commons.parser.balancer.TagBalancer;
+import org.ubimix.commons.parser.balancer.TagBalancer.IListener;
 
 /**
  * @author kotelnikov
