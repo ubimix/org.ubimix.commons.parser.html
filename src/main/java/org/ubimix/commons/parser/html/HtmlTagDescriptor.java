@@ -7,6 +7,12 @@ import org.ubimix.commons.parser.balancer.TagType;
 
 public class HtmlTagDescriptor extends TagDescriptor {
 
+    private static TagDescriptor fInstance = new HtmlTagDescriptor();
+
+    public static TagDescriptor getInstance() {
+        return fInstance;
+    }
+
     public TagType BLOCK = new TagType("block");
 
     public TagType BLOCK_CONTAINER = new TagType("blockContainer");
@@ -16,6 +22,23 @@ public class HtmlTagDescriptor extends TagDescriptor {
     public TagType DEFINITION_LIST = new TagType("definitionList");
 
     public TagType DEFINITION_LIST_ITEM = new TagType("definitionListItem");
+
+    /**
+     * A form element.
+     */
+    public TagType FORM_ELEMENT = new TagType("formElement");
+
+    /**
+     * Inner form element contained in another form element (like "option"
+     * contained in the "select" element)
+     */
+    public TagType FORM_INNER = new TagType("formInner");
+
+    /**
+     * Container for the {@link #FORM_INNER} elements (like "select" element
+     * containing the "option" items).
+     */
+    public TagType FORM_INNER_CONTAINER = new TagType("formInner");
 
     public TagType HEAD = new TagType("head");
 
@@ -47,15 +70,11 @@ public class HtmlTagDescriptor extends TagDescriptor {
 
     public TagType TEXT = new TagType("text");
 
-    public TagType TITLE = new TagType("title");
-
     public HtmlTagDescriptor() {
         // ----------------------------------------------------------------
         // Define tag types
         HTML.setContainedTypes(HEAD, BODY);
         HEAD.setContainedTypes(SPACE, HEAD_ELEMENT);
-        TITLE.setParentTypes(HEAD_ELEMENT);
-        TITLE.setContainedTypes(SPACE, INLINE, TEXT);
 
         BODY.setParentTypes(BLOCK_CONTAINER, INLINE_CONTAINER);
 
@@ -74,9 +93,18 @@ public class HtmlTagDescriptor extends TagDescriptor {
         LIST.setParentTypes(BLOCK);
         LIST.setContainedTypes(SPACE, LIST_ITEM);
 
+        LIST_ITEM.setParentTypes(BLOCK_CONTAINER, INLINE_CONTAINER);
+
         DEFINITION_LIST_ITEM.setParentTypes(INLINE_CONTAINER);
         DEFINITION_LIST.setParentTypes(BLOCK);
         DEFINITION_LIST.setContainedTypes(SPACE, DEFINITION_LIST_ITEM);
+
+        // Forms
+        FORM_ELEMENT.setParentTypes(INLINE).setContainedTypes(SPACE);
+        FORM_INNER.setParentTypes(FORM_ELEMENT).setContainedTypes(SPACE);
+        FORM_INNER_CONTAINER.setParentTypes(FORM_ELEMENT).setContainedTypes(
+            SPACE,
+            FORM_INNER);
 
         PLAINTEXT_CONTAINER.setContainedTypes(SPACE, TEXT);
 
@@ -87,10 +115,11 @@ public class HtmlTagDescriptor extends TagDescriptor {
         HashSet<String> headElements = new HashSet<String>(
             HtmlTagDictionary.ALL_ELEMENTS);
         headElements.removeAll(HtmlTagDictionary.BODY_CONTENT_ELEMENTS);
+        headElements.remove(HtmlTagDictionary.BODY);
         setType(HEAD_ELEMENT, headElements);
         setType(HEAD_ELEMENT, HtmlTagDictionary.SCRIPT, HtmlTagDictionary.STYLE);
         setType(BODY, HtmlTagDictionary.BODY);
-        setType(TITLE, HtmlTagDictionary.TITLE);
+        setType(PLAINTEXT_CONTAINER, HtmlTagDictionary.TITLE);
 
         setType(
             PLAINTEXT_CONTAINER,
@@ -124,6 +153,19 @@ public class HtmlTagDescriptor extends TagDescriptor {
             HtmlTagDictionary.SPAN,
             HtmlTagDictionary.SUB,
             HtmlTagDictionary.SUP);
+
+        // Form elements
+        setType(FORM_INNER, HtmlTagDictionary.OPTION);
+        setType(FORM_INNER_CONTAINER, HtmlTagDictionary.SELECT);
+        setType(
+            PLAINTEXT_CONTAINER,
+            HtmlTagDictionary.OPTION,
+            HtmlTagDictionary.BUTTON,
+            HtmlTagDictionary.TEXTAREA);
+        setType(
+            FORM_ELEMENT,
+            HtmlTagDictionary.BUTTON,
+            HtmlTagDictionary.TEXTAREA);
 
         setType(BLOCK, HtmlTagDictionary.BLOCK_ELEMENTS);
         setType(BLOCK_CONTAINER, HtmlTagDictionary.BLOCK_CONTAINER_ELEMENTS);
@@ -165,6 +207,8 @@ public class HtmlTagDescriptor extends TagDescriptor {
             HtmlTagDictionary.HTML,
             HtmlTagDictionary.HEAD,
             HtmlTagDictionary.BODY);
+        setParentTags(HtmlTagDictionary.SELECT, HtmlTagDictionary.OPTION);
+
         // FIXME: add a flag switching this rule on/off
         // (useful to generate HTML fragments without HTML/BODY tags)
         setParentTags(HtmlTagDictionary.BODY, HtmlTagDictionary.BLOCK_ELEMENTS);

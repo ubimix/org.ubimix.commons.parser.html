@@ -685,7 +685,13 @@ public class HtmlTagDictionary {
             TIME,
             TRACK,
             VIDEO, /* ? */
-            WBR));
+            WBR,
+
+            /* Form elements */
+            BUTTON,
+            INPUT,
+            SELECT,
+            TEXTAREA));
 
         ALL_ATTRIBUTES.addAll(Arrays.asList(
             ATTR_ALIGN,

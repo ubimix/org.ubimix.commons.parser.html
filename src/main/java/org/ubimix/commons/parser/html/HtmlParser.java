@@ -15,8 +15,9 @@ import org.ubimix.commons.parser.ICharStream.IPointer;
 import org.ubimix.commons.parser.ITokenizer;
 import org.ubimix.commons.parser.StreamToken;
 import org.ubimix.commons.parser.balancer.TagBalancer;
+import org.ubimix.commons.parser.balancer.TagBalancer.IListener;
+import org.ubimix.commons.parser.balancer.TagDescriptor;
 import org.ubimix.commons.parser.base.SequenceTokenizer;
-import org.ubimix.commons.parser.html.XHTMLEntities;
 import org.ubimix.commons.parser.text.TextTokenizer;
 import org.ubimix.commons.parser.xml.AbstractXmlParser;
 import org.ubimix.commons.parser.xml.CDATAToken;
@@ -180,61 +181,70 @@ public class HtmlParser extends AbstractXmlParser {
         XML_TOKENIZER.addTokenizer(TEXT_TOKENIZER);
     }
 
-    protected TagBalancer fBalancer = new TagBalancer(
-        new HtmlTagDescriptor(),
-        new TagBalancer.IListener() {
-
-            private TagInfo fTagInfo;
-
-            @Override
-            public void begin(String tag) {
-                if (HtmlTagDictionary.isToken(tag)) {
-                    return;
-                }
-                Map<String, String> attributes = null;
-                if (fTagToken != null && tag.equals(fTagToken.getName())) {
-                    attributes = fTagToken.getAttributesAsMap();
-                }
-                if (attributes == null) {
-                    attributes = Collections.emptyMap();
-                }
-                fTagInfo = new TagInfo(fTagInfo, tag, attributes);
-                fListener.beginElement(
-                    tag,
-                    fTagInfo.getAttributes(),
-                    fTagInfo.getNamespaces());
-                ContextSensitiveTokenizer tokenizer = getTokenizer();
-                tokenizer.push(tag);
-                fDepth++;
-            }
-
-            @Override
-            public void end(String tag) {
-                if (HtmlTagDictionary.isToken(tag)) {
-                    return;
-                }
-                fDepth--;
-                fListener.endElement(
-                    fTagInfo.getTagName(),
-                    fTagInfo.getAttributes(),
-                    fTagInfo.getNamespaces());
-                fTagInfo = fTagInfo.pop();
-                ContextSensitiveTokenizer tokenizer = getTokenizer();
-                tokenizer.pop();
-            }
-        });
-
     protected StringBuilder fBuf = new StringBuilder();
 
     private int fDepth;
 
+    protected TagBalancer fTagBalancer;
+
+    private IListener fTagBalancerListener = new TagBalancer.IListener() {
+
+        private TagInfo fTagInfo;
+
+        @Override
+        public void begin(String tag) {
+            if (HtmlTagDictionary.isToken(tag)) {
+                return;
+            }
+            Map<String, String> attributes = null;
+            if (fTagToken != null && tag.equals(fTagToken.getName())) {
+                attributes = fTagToken.getAttributesAsMap();
+            }
+            if (attributes == null) {
+                attributes = Collections.emptyMap();
+            }
+            fTagInfo = new TagInfo(fTagInfo, tag, attributes);
+            fListener.beginElement(
+                tag,
+                fTagInfo.getAttributes(),
+                fTagInfo.getNamespaces());
+            ContextSensitiveTokenizer tokenizer = getTokenizer();
+            tokenizer.push(tag);
+            fDepth++;
+        }
+
+        @Override
+        public void end(String tag) {
+            if (HtmlTagDictionary.isToken(tag)) {
+                return;
+            }
+            fDepth--;
+            fListener.endElement(
+                fTagInfo.getTagName(),
+                fTagInfo.getAttributes(),
+                fTagInfo.getNamespaces());
+            fTagInfo = fTagInfo.pop();
+            ContextSensitiveTokenizer tokenizer = getTokenizer();
+            tokenizer.pop();
+        }
+    };
+
     private TagToken fTagToken;
+
+    public HtmlParser() {
+        this(HtmlTagDescriptor.getInstance());
+    }
+
+    public HtmlParser(ITokenizer tokenizer) {
+        super(tokenizer);
+    }
 
     /**
      *  
      */
-    public HtmlParser() {
+    public HtmlParser(TagDescriptor tagDescriptor) {
         super(new ContextSensitiveTokenizer(XML_TOKENIZER));
+        fTagBalancer = new TagBalancer(tagDescriptor, fTagBalancerListener);
         ContextSensitiveTokenizer t = getTokenizer();
         t.registerTokenizer(
             HtmlTagDictionary.SCRIPT,
@@ -242,10 +252,6 @@ public class HtmlParser extends AbstractXmlParser {
         t.registerTokenizer(
             HtmlTagDictionary.STYLE,
             getTagDelimitedTextTokenizer(HtmlTagDictionary.STYLE));
-    }
-
-    public HtmlParser(ITokenizer tokenizer) {
-        super(tokenizer);
     }
 
     private void appendText(String content) {
@@ -265,16 +271,16 @@ public class HtmlParser extends AbstractXmlParser {
     @Override
     protected void finishParse() {
         flushText();
-        fBalancer.finish();
+        fTagBalancer.finish();
     }
 
     protected void flushText() {
         if (fBuf.length() > 0) {
             String str = fBuf.toString();
             if (str.trim().length() > 0) {
-                fBalancer.begin(HtmlTagDictionary.TOKEN_TEXT);
+                fTagBalancer.begin(HtmlTagDictionary.TOKEN_TEXT);
                 fListener.onText(str);
-                fBalancer.end(HtmlTagDictionary.TOKEN_TEXT);
+                fTagBalancer.end(HtmlTagDictionary.TOKEN_TEXT);
             }
             fBuf.delete(0, fBuf.length());
         }
@@ -345,10 +351,10 @@ public class HtmlParser extends AbstractXmlParser {
     @Override
     protected void reportEntity(EntityToken token) {
         flushText();
-        fBalancer.begin(HtmlTagDictionary.TOKEN_TEXT);
+        fTagBalancer.begin(HtmlTagDictionary.TOKEN_TEXT);
         Entity entity = token.getEntityKey();
         fListener.onEntity(entity);
-        fBalancer.end(HtmlTagDictionary.TOKEN_TEXT);
+        fTagBalancer.end(HtmlTagDictionary.TOKEN_TEXT);
     }
 
     @Override
@@ -375,12 +381,12 @@ public class HtmlParser extends AbstractXmlParser {
 
     protected void reportSpaceTag(String tokenTag, StreamToken token) {
         flushText();
-        fBalancer.begin(tokenTag);
+        fTagBalancer.begin(tokenTag);
         if (fDepth > 0) {
             String str = token.getText();
             fListener.onText(str);
         }
-        fBalancer.end(tokenTag);
+        fTagBalancer.end(tokenTag);
     }
 
     @Override
@@ -394,10 +400,10 @@ public class HtmlParser extends AbstractXmlParser {
         fTagToken = token;
         String tagName = token.getName();
         if (token.isOpen()) {
-            fBalancer.begin(tagName);
+            fTagBalancer.begin(tagName);
         }
         if (token.isClose()) {
-            fBalancer.end(tagName);
+            fTagBalancer.end(tagName);
         }
         fTagToken = null;
     }

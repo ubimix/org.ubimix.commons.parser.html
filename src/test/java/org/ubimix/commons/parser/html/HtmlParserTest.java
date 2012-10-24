@@ -90,34 +90,96 @@ public class HtmlParserTest extends TestCase {
         testParser(
             "<div title='Surf &amp; Turf'>Reef &amp; Beef</div>",
             "<html><body><div title='Surf &#x26; Turf'>Reef &#x26; Beef</div></body></html>");
+    }
+
+    public void testFormSelect() {
+        testParser("<select>a", ""
+            + "<html><body><p><select></select>a</p></body></html>");
+        testParser("<option>a", ""
+            + "<html><body>"
+            + "<p><select><option>a</option></select></p>"
+            + "</body></html>");
+        testParser(""
+            + "<select>\n"
+            + "  <option>a\n"
+            + "  <option>b\n"
+            + "  <option>c\n"
+            + "<p>d", ""
+            + "<html><body>"
+            + "<p><select>\n"
+            + "  <option>a\n"
+            + "  </option><option>b\n"
+            + "  </option><option>c\n"
+            + "</option></select></p>"
+            + "<p>d</p>"
+            + "</body></html>");
+
+        testParser("<option>a<p>b", ""
+            + "<html><body>"
+            + "<p><select><option>a</option></select></p>"
+            + "<p>b</p>"
+            + "</body></html>");
         testParser(
-            "<meta name=keywords /><link rel=stylesheet /><title>jsoup</title><p>Hello world</p>",
+            "<body><p><select><option>One<option>Two</p><p>Three</p>",
             ""
-                + "<html>"
-                + "<head>"
-                + "<meta name='keywords'></meta>"
-                + "<link rel='stylesheet'></link>"
-                + "<title>jsoup</title>"
-                + "<body><p>Hello world</p></body>"
-                + "</head>"
-                + "</html>");
+                + "<html><body><p>"
+                + "<select>"
+                + "<option>One</option>"
+                + "<option>Two</option>"
+                + "</select>"
+                + "</p>"
+                + "<p>Three</p>"
+                + "</body></html>");
+        testParser("<option>One<option>Two<p>Three", ""
+            + "<html><body><p>"
+            + "<select>"
+            + "<option>One</option>"
+            + "<option>Two</option>"
+            + "</select>"
+            + "</p>"
+            + "<p>Three</p>"
+            + "</body></html>");
+
+    }
+
+    public void testHeadElements() {
+        testParser(
+            "<title>Title",
+            "<html><head><title>Title</title></head></html>");
+        testParser("<title>Title<p>X", "<html>"
+            + "<head>"
+            + "<title>Title</title>"
+            + "</head>"
+            + "<body>"
+            + "<p>X</p>"
+            + "</body>"
+            + "</html>");
+        testParser("<meta name=keywords />"
+            + "<link rel=stylesheet />"
+            + "<title>title</title>"
+            + "<p>Hello world</p>", ""
+            + "<html>"
+            + "<head>"
+            + "<meta name='keywords'></meta>"
+            + "<link rel='stylesheet'></link>"
+            + "<title>title</title>"
+            + "</head>"
+            + "<body><p>Hello world</p></body>"
+            + "</html>");
+
         testParser(""
             + "<meta name=keywords>"
             + "<link rel=stylesheet>"
-            + "<title>jsoup"
+            + "<title>title"
             + "<p>Hello world", ""
             + "<html>"
             + "<head>"
             + "<meta name='keywords'></meta>"
             + "<link rel='stylesheet'></link>"
-            + "<title>jsoup</title>"
-            + "<body><p>Hello world</p></body>"
+            + "<title>title</title>"
             + "</head>"
+            + "<body><p>Hello world</p></body>"
             + "</html>");
-        // FIXME:
-        testParser(
-            "<body><p><select><option>One<option>Two</p><p>Three</p>",
-            "<html><body><p><select><option>One<option>Two</option></option></select></p><p>Three</p></body></html>");
     }
 
     private void testParser(String str) {
