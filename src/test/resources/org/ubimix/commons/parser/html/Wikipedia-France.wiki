@@ -1,0 +1,792 @@
+{{About|the country}}
+{{pp-semi|small=yes}}{{pp-move-indef}}
+{{Infobox Country
+|native_name            = ''République française''{{spaces|2}}<small>{{fr icon}}</small>
+|conventional_long_name = French Republic
+|common_name            = France
+|language               = French
+|regional_languages     = [[Breton language|Breton]]<br/>[[Picard language|Picard]]
+|national_motto         = ''[[Liberté, égalité, fraternité|Liberté, Égalité, Fraternité]]''<br />(Liberty, Equality, Fraternity)
+|national_anthem        = ''[[La Marseillaise]]''
+|image_flag             = Flag of France.svg
+|image_coat             = Armoiries république française.svg
+|symbol_type            = Coats of arms
+|image_map              = EU-France.svg
+|map_caption = {{map_caption |location_color=dark green |country='''[[Metropolitan France]]''' |region=[[Europe]] |region_color=dark grey |subregion = the [[European Union]] |subregion_color=light green |legend=EU-France.svg}}
+|image_map2             = Outre-mer en sans Terre Adelie.png
+|map_caption2           = <p style="margin-top:0;margin-bottom:-2px;line-height:1em;"><span style="font-size:11px;">Territory of the '''French Republic''' in the world<br>(excl. Antarctica where sovereignty is suspended)</span>
+|capital                = [[Paris]]
+|latd                   = 48
+|latm                   = 51.4
+|latNS                  = N
+|longd                  = 2
+|longm                  = 21.05
+|longEW                 = E
+|largest_city           = capital
+|official_languages     = [[French language|French]]
+|demonym                = French
+|government_type        = [[Unitary state|Unitary]] [[Semi-presidential system|semi-presidential]] [[republic]]
+|leader_title1          = [[President of France|President]]
+|leader_title2          = [[Prime Minister of France|Prime Minister]]
+|leader_name1           = [[Nicolas Sarkozy]] ([[Union for a popular movement|UMP]])
+|leader_name2           = [[François Fillon]] ([[Union for a popular movement|UMP]])
+|legislature            = [[Parliament of France|Parliament]]
+|upper_house            = [[Senate of France|Senate]]
+|lower_house            = [[National Assembly of France|National Assembly]]
+|sovereignty_type       = [[History of France|Formation]]
+|sovereignty_note       =
+|established_event1 = French State
+|established_event2 = [[Constitution of France|Current&nbsp;constitution]]
+|established_date1 = 843 ([[Treaty of Verdun]])
+|established_date2 = 1958 ([[French Fifth Republic|5th Republic]])
+|accessionEUdate        = 25 March 1957
+|EUseats                = 78
+|FR_metropole           = [[Metropolitan France|Metropolitan&nbsp;France]]
+|FR_IGN_area_km2        = 551695
+|FR_IGN_area_rank       = 47th
+|FR_IGN_area_magnitude      = 1 E11
+|FR_cadastre_area_magnitude = 1 E11
+|FR_IGN_area_sq_mi          = 213010
+|FR_cadastre_area_km2       = 543965
+|FR_cadastre_area_rank      = 47th
+|FR_cadastre_area_sq_mi     = 210026
+|area_km2                   = 674843
+|area_sq_mi                 = 260558 <!--Do not remove per [[WP:MOSNUM]]-->
+|area_rank                  = 43rd
+|area_magnitude             = 1 E11
+|FR_foot                    = <ref name=whole_territory>Whole territory of the French Republic, including all the overseas departments and [[Overseas territory (France)|territories]], but excluding the French territory of Terre Adélie in Antarctica where sovereignty is suspended since the signing of the [[Antarctic Treaty]] in 1959.</ref>
+|FR_foot2                   = <ref name=IGN_figure>French [[Institut Géographique National|National Geographic Institute]] data.</ref>
+|FR_foot3                   = <ref name=cadastre_figure>French [[Land Register]] data, which exclude lakes, ponds and [[glacier]]s larger than 1&nbsp;km² (0.386&nbsp;sq&nbsp;mi or 247&nbsp;acres) as well as the estuaries of rivers.</ref>
+|FR_foot4                   = <ref name=whole_territory />
+|FR_foot5                   = <ref name=metropolitan_France>[[Metropolitan France]] only.</ref>
+|FR_total_population_estimate          = 65,073,482<ref name=population>{{cite web|url=http://www.insee.fr/fr/themes/document.asp?ref_id=IP1220&reg_id=0#inter1|title=Bilan démographique 2008|first=[[Government of France]]|last=[[INSEE]]|accessdate=2009-01-13}} {{fr icon}}</ref>
+|FR_total_population_estimate_year     = January 1, 2009 estimate
+|FR_total_population_estimate_rank     = 19th
+|FR_metropole_population               = 62,448,977<ref>{{cite web|url=http://www.insee.fr/fr/themes/detail.asp?reg_id=99&ref_id=bilan-demo&page=donnees-detaillees/bilan-demo/pop_age2.htm|title=Population totale par sexe et âge au 1er janvier 2009, France métropolitaine|first=[[Government of France]]|last=[[INSEE]]|accessdate=2009-01-13}} {{fr icon}}</ref>
+|FR_metropole_population_estimate_rank = 22nd
+|population_density_km2                = 115
+|population_density_sq_mi              = 297 <!--Do not remove per [[WP:MOSNUM]]-->
+|population_density_rank               = 89th
+|GDP_nominal                           = $2.867 trillion<ref name=imf2/>
+|GDP_nominal_rank                      = 5th
+|GDP_nominal_year                      = 2009
+|GDP_nominal_per_capita                = $46,037<ref name=imf2/>
+|GDP_nominal_per_capita_rank           = 16th
+|GDP_PPP_year                          = 2008
+|GDP_PPP                               = $2.130 trillion<ref name=imf2>{{cite web|url=http://www.imf.org/external/pubs/ft/weo/2009/02/weodata/weorept.aspx?sy=2006&ey=2009&scsm=1&ssd=1&sort=country&ds=.&br=1&c=132&s=NGDPD%2CNGDPDPC%2CPPPGDP%2CPPPPC%2CLP&grp=0&a=&pr.x=70&pr.y=19 |title=France|publisher=International Monetary Fund|accessdate=2009-10-01}}</ref>
+|GDP_PPP_rank                          = 8th
+|GDP_PPP_per_capita                    = $34,205<ref name=imf2/>
+|GDP_PPP_per_capita_rank               = 23rd
+|Gini                                  = 26.7
+|Gini_year                             = 2002
+|HDI_year                              = 2007
+|HDI                                   = {{increase}} 0.961<ref>[http://hdr.undp.org/en/media/HDR_2009_EN_Complete.pdf Human Development Report 2009]. The United Nations. Retrieved 5 October 2009</ref>
+|HDI_rank                              = 8th
+|HDI_category                          = <span style="color:#090;">very&nbsp;high</span>
+|currency                              = [[Euro]],<ref>Whole of the French Republic except the overseas territories in the [[Pacific Ocean]].</ref> [[CFP Franc]]<ref>French overseas territories in the Pacific Ocean only.</ref><br />&nbsp;
+|currency_code                         = EUR,{{spaces|4}}XPF
+|time_zone                             = CET<ref name=metropolitan_France />
+|utc_offset                            = +1
+|time_zone_DST                         = CEST<ref name=metropolitan_France />
+|utc_offset_DST                        = +2
+|drives_on                             = right
+|cctld                                 = [[.fr]]<ref>In addition to [[.fr]], several other Internet TLDs are used in French overseas ''départements'' and territories: [[.re]], [[.mq]], [[.gp]], [[.tf]], [[.nc]], [[.pf]], [[.wf]], [[.pm]], [[.gf]] and [[.yt]]. France also uses [[.eu]], shared with other members of the [[European Union]]. The [[.cat]] domain is used in [[Catalan Countries|Catalan-speaking territories]].</ref>
+|calling_code                          = [[Telephone numbers in France|33]]{{smallsup|1}}
+|ISO_3166-1_alpha2                     =
+|ISO_3166-1_alpha3                     = FRA
+|ISO_3166-1_numeric                    =
+|sport_code                            = FRA
+|vehicle_code                          = F
+|footnote1                             = The overseas regions and collectivities form part of the [[French telephone numbering plan]], but have their own country calling codes: [[Guadeloupe]] +590; [[Martinique]] +596; [[French Guiana]] +594, [[Réunion]] and [[Mayotte]] +262; [[Saint Pierre et Miquelon]] +508. The overseas territories are not part of the French telephone numbering plan; their country calling codes are: [[New Caledonia]] +687, [[French Polynesia]] +689; [[Wallis and Futuna]] +681
+}}
+{| class="infobox" style="width:200px;"
+|-
+|colspan=2|&nbsp; [[Outline of France]] <small>(links hundreds<br />&nbsp; of topic articles about France)
+|}
+'''France''' ({{pron-en|ˈfræns|en-us-France.ogg}} {{respell|franss}} or {{IPA|/ˈfrɑːns/}} {{respell|frahns}}; {{Audio|france.ogg|French pronunciation}}: {{IPA-fr|fʁɑ̃s|}}), officially the '''French Republic''' ({{lang-fr|République française}}, {{IPA-fr|ʁepyblik fʁɑ̃sɛz|pron}}), is a [[member state of the European Union]] located in its [[western europe|western region]], with several [[Overseas departments and territories of France|overseas territories and islands]] located on other [[continents]].<ref name="CatTOM">For more information, see [[:Category:Overseas departments, collectivities and territories of France]].</ref> France is a [[unitary state|unitary]] [[semi-presidential system|semi-presidential]] [[republic]] with its main ideals expressed in the [[Declaration of the Rights of Man and of the Citizen]].
+
+[[Metropolitan France]] extends from the [[Mediterranean Sea]] to the [[English Channel]] and the [[North Sea]], and from the [[Rhine]] to the [[Atlantic Ocean]]. It is often referred to as ''L’Hexagone'' ("The [[Hexagon]]") because of the geometric shape of its territory.  It is bordered (clockwise from the north) by [[Belgium]], [[Luxembourg]], [[Germany]], [[Switzerland]], [[Italy]], [[Monaco]], [[Spain]] and [[Andorra]]. France's overseas departments and collectivities also share land borders with [[Brazil]] and [[Suriname]] (bordering [[French Guiana]]), and the [[Netherlands Antilles]] (bordering [[Saint-Martin]]). France is linked to the [[United Kingdom]] by the [[Channel Tunnel]], which passes underneath the English Channel.
+
+France is the largest state in the [[European Union]] by area and the third largest in Europe behind Russia and Ukraine. It would be second if its extra-European territories like [[French Guiana]] were included. France has been a [[great power|major power]] for [[History of France#Early Modern France|many centuries]] with strong economic, cultural, military and political influence. During the 17th and 18th centuries, France colonised great parts of [[North America]]; during the 19th and early 20th centuries, France built the [[French colonial empire|second largest empire]] of the time, including large portions of [[North Africa|North]], [[West Africa|West]] and [[Central Africa]], [[Southeast Asia]], and many [[Pacific islands]]. 
+
+France is a [[developed country]] and possesses the fifth largest economy by [[List of countries by GDP (nominal)|nominal GDP]]<ref>[https://www.cia.gov/library/publications/the-world-factbook/fields/2195.html Field listing - GDP (official exchange rate)], CIA World Factbook</ref> and eighth largest economy by [[List of countries by GDP (PPP)|purchasing power parity]].<ref>{{cite web|url=https://www.cia.gov/library/publications/the-world-factbook/rankorder/2001rank.html |title=CIA - The World Factbook - Country Comparisons - GDP (purchasing power parity) |publisher=Cia.gov |date= |accessdate=2009-04-26}}</ref> It is the most visited country in the world, receiving 82 million foreign tourists annually.<ref name="tourism.stat">{{cite web|publisher=Direction du Tourisme (French government's tourism agency)|url=http://www.tourisme.gouv.fr/fr/z2/stat/tis/att00018288/TIS_EVE2007_2008-5.pdf|title=Le tourisme international en France en 2007|accessdate=2008-06-05|format=PDF}} {{fr icon}}</ref> France is one of the founding members of the [[European Union]]. It is also a founding member of the [[United Nations]], and a member of the [[Francophonie]], the [[G8]], [[G-20 major economies|G20]], [[NATO]], [[OECD]], [[World Trade Organisation|WTO]] and the [[Latin Union]]. It is one of the five [[United Nations Security Council#Permanent members|permanent members]] of the [[United Nations Security Council]], possesses the third largest [[List of countries with nuclear weapons|number of nuclear weapons]] in the world and the largest number of [[Nuclear power in France|nuclear power plants]] in the European Union.
+
+== Origin of the name ''France'' ==
+{{Main|Name of France}}
+{{See also|List of country name etymologies}}
+The name "France" comes from [[Latin]] ''Francia'', which literally means "land of the [[Franks]]," or "Frankland". There are various theories as to the origin of the name of the Franks. One is that it is derived from the [[Proto-Germanic language|Proto-Germanic]] word ''frankon'' which translates as ''javelin'' or ''lance'' as the throwing axe of the Franks was known as a [[francisca]].{{Citation needed|date=February 2008}}
+
+Another proposed etymology is that in an ancient [[Germanic languages|Germanic language]], Frank means ''free'' as opposed to [[slave]]. This usage still survives in the name of the national currency prior to the adoption of the [[euro]], the [[French_franc|franc]].
+
+However, it is also possible that the word is derived from the ethnic name of the Franks,{{Citation needed|date=February 2008}} the connection being that only the Franks, as the conquering class, had the status of freemen. In [[German language|German]], France is still called ''Frankreich'', which literally means "[[Frankish Realm|Realm of the Franks]]". In order to distinguish from the Frankish Empire of [[Charlemagne]], Modern France is called ''Frankreich'', while the Frankish Realm is called ''Frankenreich''.
+
+The word "Frank" had been loosely used from the fall of Rome to the Middle Ages, yet from [[Hugh Capet]]'s coronation as "King of the Franks" ("Rex Francorum") it became usual to strictly refer to the [[Kingdom of France|Kingdom of Francia]], which would become France. The [[House of Capet|Capetian Kings]] were descended from the [[Robertians|Robertines]], who had produced two Frankish kings, and previously held the title of "[[Duke of the Franks]]" ("dux Francorum"). [[Île-de-France (region)|This Frankish duchy]] encompassed most of modern [[Neustria|northern France]] but because the royal power was sapped by regional princes the term was then applied to the royal [[demesne]] as shorthand. It was finally the name adopted for the entire Kingdom as central power was affirmed over the entire kingdom.<ref>Elizabeth M. Hallam & Judith Everard – Capetian France 937-1328, chapter 1 "The origins of Western Francia" page 7: "What did the name Francia mean in the tenth and eleventh centuries? It still retained a wide general use; both Byzantine and western writers at the time of the crusades described the western forces as Franks. But it was also taking on more specific meanings. From 911 onwards the west Frankish king was known as the ''Rex Francorum'' -king of the Franks- and the name Francia could be used to describe his kingdom, as it was also used by the east Frankish, or German, kingdom... The Robertines, forerunners of the Capetians, were ''duces francorum'', dukes of the Franks, and their 'duchy' covered in theory most of northern France. Then as royal power contracted further, leaving the early Capetians only a small bloc of lands around Paris and Orleans, the term Francia was used for this region."</ref>
+
+== History ==
+{{Main|History of France}}
+{{See also|Medieval demography|Economic history of France|Territorial formation of France}}
+
+=== Rome to revolution ===
+The borders of modern France are approximately the same as those of ancient [[Gaul]], which was inhabited by [[Celt]]ic ''Gauls''. Gaul was conquered for [[Roman Empire|Rome]] by [[Julius Caesar]] in the 1st century BC,<ref>[[Plutarch]] claimed that one million people (probably 1 in 4 of the [[Gauls]]) died, another million were enslaved, 300 tribes were subjugated and 800 cities were destroyed during the [[Gallic Wars]].</ref> and the Gauls eventually adopted [[Romance languages|Roman]] speech ([[Latin]], from which the [[French language]] evolved) and Roman culture. [[History of Christianity|Christianity]] first appeared in the 2nd and 3rd centuries AD, and became so firmly established by the fourth and fifth centuries that [[St. Jerome]] wrote that Gaul was the only region “free from heresy”.
+[[File:Map France 1477-fr.svg|thumb|left|France after the [[Hundred Years War]]. Red line: Boundary of the [[Kingdom of France]]; Light blue: the directly held royal domain]]
+In the 4th century AD, Gaul’s eastern frontier along the [[Rhine]] was overrun by [[Germanic peoples|Germanic tribes]], principally the [[Franks]], from whom the ancient name of “Francie” was derived. The modern name “France” derives from the name of the feudal domain of the [[House of Capet|Capetian]] Kings of France around Paris. The [[Franks]] were the first tribe among the Germanic conquerors of Europe after the fall of the Roman Empire to convert to [[Catholic Church|Catholic]] Christianity rather than [[Arianism]] (their King [[Clovis I|Clovis]] did so in 498); thus France obtained the title “Eldest daughter of the Church” (''La fille ainée de l’Église''), and the French would adopt this as justification for calling themselves “the Most Christian Kingdom of France”.
+
+Existence as a separate entity began with the [[Treaty of Verdun]] (843), with the division of [[Charlemagne]]'s [[Carolingian Empire]] into [[East Francia]], [[Middle Francia]] and [[Western Francia]]. Western Francia approximated the area occupied by modern France and was the precursor to modern France.
+[[File:Jacques callot miseres guerre.gif|right|thumb|''[[Les Grandes Misères de la guerre]]'' depict the destruction unleashed on civilians during the [[Thirty Years' War]].]]
+The [[Carolingian dynasty]] ruled France until 987, when [[Hugh Capet of France|Hugh Capet]], Duke of France and Count of Paris, was crowned [[King of France]]. His descendants, the [[House of Capet|Direct Capetians]], the [[House of Valois]] and the [[House of Bourbon]], progressively unified the country through a series of wars and dynastic inheritance. The [[Albigensian Crusade]] was launched in 1209 to eliminate the heretical [[Cathars]] of [[Occitania]] (the south of modern-day France). In the end, both the Cathars and the independence of southern France were exterminated.<ref>[http://www.time.com/time/magazine/article/0,9171,897752-2,00.html Massacre of the Pure]. Time. April 28, 1961.</ref> 
+
+In 1337, on the eve of the first wave of the [[Black Death]],<ref>[http://encarta.msn.com/text_761568934___117/France.html France VII. — History]. Microsoft Encarta Online Encyclopedia 2009. [http://www.webcitation.org/5kwcLOXgw Archived] 2009-10-31.</ref> England and France went to war in what would become known as the [[Hundred Years' War]].<ref>Don O'Reilly. "[http://www.historynet.com/magazines/military_history/3031536.html Hundred Years' War: Joan of Arc and the Siege of Orléans]". ''TheHistoryNet.com''.</ref> In the most notorious incident during the [[French Wars of Religion]] (1562–98), thousands of [[Huguenots]] were murdered in the [[St. Bartholomew's Day massacre]] of 1572.<ref>[http://www.britannica.com/EBchecked/topic/516821/Massacre-of-Saint-Bartholomews-Day Massacre of Saint Bartholomew’s Day]. [[Encyclopaedia Britannica]].</ref> 
+
+The monarchy reached its height during the [[17th century]] and the reign of [[Louis XIV of France|Louis XIV]]. At this time France possessed the largest population in Europe (see [[Demographics of France]]) and had tremendous influence over European politics, economy, and culture. [[French language|French]] became, and remained until the 20th century, the common language of diplomacy in international affairs. Much of the [[Age of Enlightenment|Enlightenment]] occurred in French intellectual circles, and major scientific breakthroughs were achieved by French scientists in the 18th century. In addition, France obtained many overseas possessions in the Americas, Africa and Asia.
+
+=== Monarchy to Republic ===
+[[File:Prise de la Bastille.jpg|thumb|[[Storming of the Bastille]] on 14 July 1789]]
+
+The monarchy ruled France until the [[French Revolution]]. It did not fall immediately after the storming of the Bastille on July 14, 1789, but endured until the creation of the First Republic in September 1792. [[Louis XVI of France|Louis XVI]] and his wife, [[Marie Antoinette]], were executed (in 1793), along with thousands of other French citizens during the [[Reign of Terror]].<ref>[http://www.nytimes.com/1989/07/09/travel/vive-la-contre-revolution.html?sec=travel Vive la Contre-Revolution!]. The New York Times. July 9, 1989.</ref> After a series of short-lived governmental schemes, [[Napoleon I of France|Napoleon Bonaparte]] seized control of the Republic in 1799, making himself [[First Consul]], and later [[Emperor]] of what is now known as the [[First French Empire|First Empire]] (1804–1814). In the course of [[Napoleonic Wars|several wars]], his armies conquered most of continental Europe, with members of the [[Bonaparte]] family being appointed as monarchs of newly established kingdoms. About a million Frenchmen died during the Napoleonic wars.<ref>[http://www.questia.com/googleScholar.qst?docId=5001329960 Napoleon and German identity]. Magazine article by Tim Blanning; History Today, Vol. 48, April 1998.</ref>
+
+Following Napoleon's final defeat in 1815 at the [[Battle of Waterloo]], the French monarchy was re-established, but with new constitutional limitations. In 1830, a [[July Revolution|civil uprising]] established the [[constitutional monarchy|constitutional]] [[July Monarchy]], which lasted until 1848. The short-lived [[French Second Republic|Second Republic]] ended in 1852 when [[Napoleon III of France|Louis-Napoléon Bonaparte]] proclaimed the [[Second French Empire|Second Empire]]. Louis-Napoléon was unseated following defeat in the [[Franco-Prussian War|Franco-Prussian war]] of 1870 and his regime was replaced by the [[French Third Republic|Third Republic]].
+
+France had [[French colonial empire|colonial possessions]], in various forms, since the beginning of the 17th century until the 1960s. In the 19th and 20th centuries, its [[global Empire|global]] overseas colonial empire was the second largest in the world behind the [[British Empire]]. At its peak, between 1919 and 1939, the second French colonial empire extended over 12,347,000 square kilometres (4,767,000&nbsp;sq&nbsp;mi) of land. Including [[metropolitan France]], the total area of land under French [[sovereignty]] reached 12,898,000 square kilometres (4,980,000&nbsp;sq&nbsp;mi) in the 1920s and 1930s, which is 8.6% of the world's land area.
+
+[[File:Eur.fr.100.gif|thumb|France issued the single European currency, the [[euro]], in 2002, together with 16 other EU member states it forms the [[Eurozone]]. Here shown a [[French euro coins|French side of euro coin]].]]
+
+France was an occupied nation in [[World War I]] and [[World War II]]. The human and material losses in the first war, which left 1.4 million French soldiers dead,<ref>[http://news.bbc.co.uk/2/hi/europe/7199127.stm France's oldest WWI veteran dies]. BBC News. January 20, 2008.</ref> exceeded largely those of the second, even though only a minor part of its territory was occupied during World War I. The interbellum phase was marked by a variety of social reforms introduced by the Popular Front government. Following the [[Nazi Germany|German]] ''[[blitzkrieg]]'' campaign in World War II [[metropolitan France]] was divided in an [[German occupation of France during World War II|occupation zone in the north]] and [[Vichy France]], a puppet regime loyal to Germany, in the south.
+
+The [[French Fourth Republic|Fourth Republic]] was established after World War II and, despite spectacular economic growth (''les [[Trente Glorieuses]]''), it struggled to maintain its political status as a dominant [[Nation-state|nation state]]. France attempted to hold on to its [[colonial empires|colonial empire]], but soon ran into trouble. The half-hearted 1946 attempt at regaining control of [[French Indochina]] resulted in the [[First Indochina War]], which ended in French defeat at the [[Battle of Dien Bien Phu]] in 1954. Only months later, France faced a new, even harsher [[Algerian War|conflict]] in [[Algeria]].
+
+The debate over whether or not to keep control of [[French Algeria|Algeria]], then home to over one million [[Pied-noir|European settlers]],<ref>[http://www.nytimes.com/2009/03/05/arts/design/05abroad.html?_r=1 In France, a War of Memories Over Memories of War]. The New York Times. March 4, 2009.</ref> wracked the country and nearly led to civil war. In 1958, the weak and unstable Fourth Republic gave way to the [[Fifth French Republic|Fifth Republic]], which contained a strengthened Presidency. In the latter role, [[Charles de Gaulle]] managed to keep the country together while taking steps to end the war. The Algerian War and Franco-French civil war that resulted in the capital [[Algiers]], was concluded with peace negotiations in 1962 that led to Algerian independence.
+
+In recent decades, France's reconciliation and cooperation with [[Germany]] have proved central to the political and economic integration of the evolving [[European Union]], including the introduction of the [[euro]] in January 1999. France has been at the forefront of the European Union member states seeking to exploit the momentum of monetary union to create a more unified and capable European Union political, defence, and security apparatus. The French electorate voted against ratification of the [[Treaty establishing a Constitution for Europe|European Constitutional Treaty]] in May 2005, but the successor [[Treaty of Lisbon]] was [[Treaty of Lisbon#Ratification|ratified]] by Parliament in February 2008.
+
+== Geography ==
+[[File:Satellite image of France in August 2002.jpg|thumb|right|Satellite image of France]]
+{{Main|Geography of France}}
+While [[Metropolitan France]] is located in [[Western Europe]], France also has [[Overseas departments and territories of France|a number of territories]] in [[North America]], the [[Caribbean]], [[South America]], the southern [[Indian Ocean]], the [[Pacific Ocean]], and [[Antarctica]].<ref>Sovereignty claims in Antarctica are governed by the [[Antarctic Treaty System]]</ref> These territories have varying forms of government ranging from [[overseas department]] to [[overseas collectivity]].
+
+Metropolitan France covers {{convert|547030|km2|sqmi|0|lk=on}},<ref name="area">{{cite web |author=[[CIA]] |year=2007 | title = The World Factbook |url=https://www.cia.gov/library/publications/the-world-factbook/geos/fr.html |accessdate=2007-12-06 }}</ref> having the largest area among [[European Union]] members and slightly larger than [[Spain]]. France possesses a wide variety of landscapes, from coastal plains in the north and west to mountain ranges of the [[Alps]] in the south-east, the [[Massif Central]] in the south-central and [[Pyrenees]] in the south-west. At {{convert|4807|m|ft|0}} above sea-level, the highest point in Western Europe, [[Mont Blanc]], is situated in the [[Alps]] on the border between France and [[Italy]].<ref name="elevation">{{cite web |author=[[CIA]] |publisher= |year=2006 |url=https://www.cia.gov/library/publications/the-world-factbook/fields/2020.html |title=The World Factbook: Field Listing - Elevation extremes |accessdate=2006-12-14}}</ref> Metropolitan France also has extensive river systems such as the [[Loire River|Loire]], the [[Garonne]], the [[Seine]] and the [[Rhône River|Rhône]], which divides the Massif Central from the Alps and flows into the Mediterranean Sea at the [[Camargue]], the lowest point in France ({{convert|2|m|ft|2|abbr=on|disp=s}} below sea level).<ref name="elevation"/> Corsica lies off the Mediterranean coast.
+
+[[File:EEZ France.png|thumb|left|250px|The Exclusive Economic Zone of France extends over {{convert|11000000|km2|sqmi|sigfig=1|abbr=on}} of ocean across the world.<ref>{{fr icon}} {{cite web |author=[[Minister of Foreign Affairs (France)|French Ministry of Foreign Affairs]]|url=http://www.diplomatie.gouv.fr/fr/france_829/decouvrir-france_4177/france-bref_2271/index.html|title=La France en bref|accessdate=2008-03-20}}</ref>]]
+France's total land area, with its overseas departments and territories (excluding [[Adélie Land]]), is {{convert|674843|km2|sqmi|0|abbr=on}}, 0.45% of the total land area on Earth. However, France possesses the second-largest [[Exclusive Economic Zone]] (EEZ) in the world, covering {{convert|11035000|km2|sqmi|0|abbr=on}}, approximately 8% of the total surface of all the EEZs of the world, just behind the [[United States]] ({{convert|11351000|km2|sqmi|0|abbr=on|disp=s}}) and ahead of [[Australia]] ({{convert|8232000|km2|sqmi|0|abbr=on|disp=s}}).<ref name="Pew">According to a different calculation cited by the [http://pewresearch.org/ Pew Research Center], the EEZ of France would be {{convert|10084201|km2|sqmi|0|abbr=on}}, still behind the [[United States]] ({{convert|12174629|km2|sqmi|0|abbr=on|disp=s}}), and still ahead of [[Australia]] ({{convert|8980568|km2|sqmi|0|abbr=on|disp=s}}) and [[Russia]] ({{convert|7566673|km2|sqmi|0|abbr=on|disp=s}}).</ref>
+
+Metropolitan France is situated between [[41st parallel north|41°]] and [[51st parallel north|51° North]], on the western edge of Europe, and thus lies within the [[northern temperate zone]]. The north and northwest have a temperate climate, while a combination of maritime influences, [[latitude]] and [[altitude]] produce a varied climate in the rest of Metropolitan France.<ref name="climate">{{cite web |author=[[Minister of Foreign Affairs (France)|Ministry of Foreign Affairs]] |publisher= |year=2005 |url=http://www.diplomatie.gouv.fr/en/france_159/discovering-france_2005/france-from-to-z_1978/country_2004/geography_4405/geography_1507.html |title=Discovering France: Geography |accessdate=2006-12-29}}</ref> In the south-east a [[Mediterranean climate]] prevails. In the west, the climate is predominantly [[oceanic climate|oceanic]] with a high level of rainfall, mild winters and cool to warm summers. Inland the climate becomes more [[continental climate|continental]] with hot, stormy summers, colder winters and less rain. The [[climate of the Alps]] and other mountainous regions is mainly [[alpine climate|alpine]], with the number of days with temperatures below freezing over 150 per year and snow cover lasting for up to six months.
+
+== Government ==
+{{Main|Government of France|Constitution of France|Politics of France}}<!--Please add new information to relevant articles of the series-->
+[[File:Logo de la République française.svg|thumb|Logo of the [[French Republic]]]]
+
+The French Republic is a [[unitary state|unitary]] [[semi-presidential system|semi-presidential]] [[republic]] with strong [[democratic]] traditions. The [[Constitution of France|constitution]] of the Fifth Republic was approved by [[referendum]] on 28 September 1958. It greatly strengthened the authority of the executive in relation to [[Government of France#The legislative branch|parliament]]. The executive branch itself has two leaders: the [[President of the French Republic|President of the Republic]], currently [[Nicolas Sarkozy]], who is [[head of state]] and is elected directly by universal adult suffrage for a 5-year term (formerly 7 years), and the Government, led by the president-appointed [[Prime Minister of France|Prime Minister]], currently [[François Fillon]].
+
+The French [[Parliament of France|parliament]] is a [[bicameral]] legislature comprising a [[French National Assembly|National Assembly]] (''Assemblée Nationale'') and a [[French Senate|Senate]]. The National Assembly deputies represent local constituencies and are directly elected for 5-year terms. The Assembly has the power to dismiss the cabinet, and thus the majority in the Assembly determines the choice of government. Senators are chosen by an electoral college for 6-year terms (originally 9-year terms), and one half of the seats are submitted to election every 3 years starting in September 2008.<ref name="Senat">{{cite web|publisher=[[French Senate]]|year=2006 |url=http://www.senat.fr/role/index.html|title=Rôle et fonctionnement du Sénat |accessdate=2006-04-20}}</ref> 
+
+The [[French Senate|Senate's]] legislative powers are limited; in the event of disagreement between the two chambers, the National Assembly has the final say, except for constitutional laws and ''lois organiques'' (laws that are directly provided for by the constitution) in some cases. The government has a strong influence in shaping the agenda of Parliament.
+
+French politics are characterised by two politically opposed groupings: one [[Left-wing politics|left-wing]], centred around the [[Socialist Party (France)|French Socialist Party]], and the other [[Right-wing politics|right-wing]], centred previously around the [[Rally for the Republic|Rassemblement pour la République (RPR)]] and now its successor the [[Union for a Popular Movement|Union for a Popular Movement (UMP)]]. The executive branch is currently composed mostly of the UMP.
+
+== Conventions and notations ==
+* France is the home of the [[International System of Units]] (the metric system). Some pre-metric units are still used, essentially the ''[[Pound (mass)#French livre or pound|livre]]'' (a unit of weight equal to half a kilogram) and the ''[[quintal]]'' (a unit of weight equal to 100 kilograms).
+* In [[mathematics]], France uses the [[infix notation]] like most countries. For large numbers the [[long and short scales|long scale]] is used. Thus, the French use the word ''[[billion (word)|billion]]'' for the number 1,000,000,000,000, which in countries using [[Long and short scales|short scale]] is called a [[trillion]]. However, there exists a French word, ''milliard'', for the number 1,000,000,000, which in countries using the short scale is called a billion. Thus, despite the use of the long scale, one billion is called ''un milliard'' (“one milliard”) in French, and not ''mille millions'' (“one thousand million”). It should also be noted that names of numbers above the ''milliard'' are rarely used. Thus, one trillion will most often be called ''mille milliards'' (“one thousand milliard”) in French, and rarely ''un billion''.
+* In the French numeral notation, the comma (,) is the [[Decimal separator]], whereas the dot (.) is used between each group of three digits especially for big numbers. A space can also be used to separate each group of three digits especially for small numbers. Thus three thousand five hundred and ten may be written as 3 510 whereas fifteen million five hundred thousand and thirty-two may be written as 15.500.032. In finance, the currency symbol is used as a decimal separator or put after the number. For example, €25,048.05 is written either 25 048€05 or 25 048,05 € (always with an extra space between the figure and the currency symbol).
+* In computing, a [[bit]] is called a bit yet a [[byte]] is called an [[octet (computing)|octet]] {{Citation needed|date=January 2010}} (from the Latin root ''octo'', meaning “8”). [[SI prefix]]es are used.
+* [[24-hour clock]] time is used, with h being the separator between hours and minutes (for example 2:30 p.m. is 14h30).
+* The all-numeric form for dates is in the order day-month-year, using a slash as the separator (example: 31/12/1992 or 31/12/92).
+
+== Law ==
+{{Main|Law of France}}
+[[File:Declaration of Human Rights.jpg|thumb|upright|The basic principles that the French Republic must respect are found in the 1789 [[Declaration of the Rights of Man and of the Citizen]]]]
+
+France uses a [[civil law (legal system)|civil legal]] system; that is, law arises primarily from written statutes; judges are not to make law, but merely to interpret it (though the amount of judge interpretation in certain areas makes it equivalent to [[case law]]). Basic principles of the [[rule of law]] were laid in the [[Napoleonic Code]]. In agreement with the principles of the [[Declaration of the Rights of Man and of the Citizen]] law should only prohibit actions detrimental to society. As [[Guy Canivet]], first president of the [[Court of Cassation (France)|Court of Cassation]], wrote about the management of prisons: <!--<ref>[http://www.reseauvoltaire.net/article7985.html]</ref> -->
+:''Freedom is the rule, and its restriction is the exception; any restriction of Freedom must be provided for by Law and must follow the principles of necessity and proportionality.''
+That is, Law should lay out prohibitions only if they are needed, and if the inconveniences caused by this restriction do not exceed the inconveniences that the prohibition is supposed to remedy.
+
+French law is divided into two principal areas: [[private law]] and [[public law]]. Private law includes, in particular, [[civil law (legal system)|civil law]] and [[criminal law]]. Public law includes, in particular, [[administrative law]] and [[constitutional law]]. However, in practical terms, French law comprises three principal areas of law: civil law, criminal law and administrative law.
+
+France does not recognise [[religious law]], nor does it recognise religious beliefs or morality as a motivation for the enactment of prohibitions. As a consequence, France has long had neither [[blasphemy]] laws nor [[sodomy law]]s (the latter being abolished in 1791). However “offences against [[public decency]]” (''contraires aux bonnes mœurs'') or [[breach of the peace|disturbing public order]] (''trouble à l'ordre public'') have been used to repress public expressions of [[homosexuality]] or street [[prostitution]].
+
+Criminal laws can only address the future and not the past (criminal [[ex post facto]] laws are prohibited) ; and to be applicable, laws must be officially published in the ''[[Journal Officiel de la République Française]]''.
+
+== Foreign relations ==
+{{Main|Foreign relations of France}}
+{{See also|European Union|Latin Union|Francophonie|United Nations Security Council}}
+[[File:Signing of the Maastricht Treaty.jpg|thumb|upright|France is a founding member of the [[European community|EC]] in 1957, and the [[European Union]] in 1993 (Signing of the Maastricht Treaty).]]
+
+France is a member of the [[United Nations]] and serves as one of the permanent members of the [[U.N. Security Council]] with [[veto]] rights. It is also a member of the [[World Trade Organisation]] (WTO), the [[Secretariat of the Pacific Community]] (SPC) and the [[Indian Ocean Commission]] (COI). It is an associate member of the [[Association of Caribbean States]] (ACS) and a leading member of the [[La Francophonie|International Francophone Organisation]] (OIF) of fifty-one fully or partly [[French language|French]]-speaking countries. It hosts the headquarters of the [[Organisation for Economic Co-operation and Development|OECD]], [[UNESCO]], [[Interpol]], [[Alliance Base]] and the [[International Bureau of Weights and Measures|International Bureau for Weights and Measures]]. In 1953 France received a request from the [[United Nations]] to pick a coat of arms that would represent it internationally. Thus the French emblem was adopted and is currently used on passports.
+
+French foreign policy has been largely shaped by membership of the [[European Union]], of which it was a founding member. In the 1960s, France sought to exclude the British from the organisation, seeking to build its own standing in continental Europe. Since the 1990s, France has developed close ties with reunified Germany to become the most influential driving force of the EU, but consequently rivaling the UK and limiting the influence of newly inducted East European nations. 
+
+France is a member of the [[North Atlantic Treaty Organisation]], but under President de Gaulle, it excluded itself from the joint military command to avoid the supposed domination of its foreign and security policies by US political and military influence. In the early 1990s, the country drew considerable criticism from other nations for its underground nuclear tests in [[French Polynesia]]. France vigorously opposed the [[2003 invasion of Iraq]], straining bilateral relations with the US and the UK. France retains strong political and economic influence in its former African colonies ([[Françafrique]]) and has supplied economic aid and troops for peace-keeping missions in the [[Ivory Coast]] and [[Chad]].
+
+== Military ==
+{{Main|Military of France}}
+{{See also|Military history of France}}
+[[File:Gaule96.jpg|thumb|[[Charles de Gaulle (R 91)|Nuclear aircraft carrier ''Charles de Gaulle'']]]]
+
+The French [[armed forces]] are divided into four branches:
+* [[French Army|Armée de Terre]] (Army)
+* [[French Navy|Marine Nationale]] (Navy)
+* [[French Air Force|Armée de l'Air]] (Air Force)
+* [[French Gendarmerie|Gendarmerie Nationale]] (A military force which acts as a National Rural Police and as a [[Military police]] for the entire French military)
+[[File:French Republican Guard Bastille Day 2007 n4.jpg|thumb|left|[[Republican Guard (France)|French Republican Guard]].]]
+After the [[Algerian War]], [[conscription]] was steadily reduced and was finally suspended in 2001 by President [[Jacques Chirac]]. The total number of military personnel is approximately 359,000. France spends 2.6% of its [[GDP]] on defence, slightly more than the [[United Kingdom]] (2.4%) and the highest in the European Union where defence spending generally accounts to less than 1.5% of GDP. France and the U.K. account for 40% of EU defence spending. About 10% of France's defence budget goes towards its ''[[force de frappe]]'', or [[France and weapons of mass destruction|nuclear weapons]] force. 
+
+France has major military industries that have produced the [[Rafale]] fighter, the [[Charles de Gaulle (R 91)|Charles de Gaulle]] aircraft carrier, the [[Exocet]] missile and the [[Leclerc]] tank amongst others. Some weaponry, like the [[E-2 Hawkeye]] or the [[E-3 Sentry]] was bought from the United States. Despite withdrawing from the [[Eurofighter]] project, France is actively investing in European joint projects such as the [[Eurocopter Tiger]], [[FREMM multipurpose frigate|multipurpose frigates]], the [[UCAV]] demonstrator [[nEUROn]] and the [[Airbus A400M]]. 
+
+France is a major arms seller as most of its arsenal's designs are available for the export market with the notable exception of nuclear-powered devices. Some of the French designed equipments are specifically designed for exports like the Franco-Spanish [[Scorpène class submarine]]s. Some French equipments have been largely modified to fit allied countries' requirements like the [[Formidable class frigate]]s (based on the La Fayette class) or the [[Agosta 90B class submarine|Hashmat class submarines]] (based on the Agosta class submarines).
+
+* Although it includes very competent anti-terrorist units such as the [[GIGN]] or the [[Escadron Parachutiste d'Intervention de la Gendarmerie Nationale|EPIGN]], the gendarmerie is a military police force which serves for the most part as a rural and general purpose police force. Since its creation the GIGN has taken part in roughly one thousand operations and freed over five-hundred hostages; the [[Air France Flight 8969]]'s hijacking brought them to the world's attention.
+* French intelligence constitutes of two major units: the [[Direction générale de la sécurité extérieure|DGSE]] (the external agency) and the [[Direction centrale du renseignement intérieur|DCRI]] (domestic agency). The latter being part of the police while the former is associated to the army. The DGSE is notorious for the [[Sinking of the Rainbow Warrior]], but it is also known for revealing the most extensive technological spy network uncovered in Europe and the United States to date through the [[Mole (espionage)|mole]] [[Vladimir Vetrov]].
+* The French “''[[Force de frappe]]''” relies on a complete independence. The current French nuclear force consists of four submarines equipped with [[M45 SLBM|M45]] ballistic missiles. The current [[Le Triomphant class submarine|''Triomphant'']] class is currently under deployment to replace the former [[Le Redoutable class submarine|''Redoutable'']] class. The [[M51 SLBM|M51]] will replace the M45 in the future and expand the ''Triomphant''s firing range. Aside of the submarines the French dissuasion force uses the [[Dassault Mirage 2000N/2000D|Mirage 2000N]]; it is a variant of the Mirage 2000 and thus is designed to deliver nuclear strikes. Other nuclear devices like the Plateau d'Albion's [[Intermediate-range ballistic missile]] and the short range [[Hadès (missile)|Hadès]] missiles have been disarmed. With 350 nuclear heads stockpiled France is the world's third largest nuclear power.<ref>[http://www.globalsecurity.org/wmd/world/summary.htm Comparison of recognised and alleged nuclear powers].</ref>
+* The [[Marine Nationale]] is regarded as one of the world's most powerful navies. The professional compendium ''flottes de combats'', in its 2006 edition, ranked it world's 6th biggest navy after the American, Russian, Chinese, British and Japanese navies.<ref>{{cite web|url=http://www.meretmarine.com/article.cfm?id=958|title=La marine chinoise accède au rang de 3ème puissance mondiale}}</ref> It is equipped with the only non-American nuclear powered Aircraft Carrier in the world. Recently [[Mistral class landing platform dock|Mistral]] class ships joined the Marine Nationale, the Mistral itself having taken part to operations in Lebanon. For the 2004 centennial of the [[Entente Cordiale]] President Chirac announced the [[Future French aircraft carrier]] would be jointly designed with Great Britain. The French navy is equipped with the [[La Fayette class frigate]]s, early examples of stealth ships, and several ships are expected to be retired in the next few years and replaced by more modern ships, examples of future surface ships are the [[Horizon class frigate|Forbin]] and the [[FREMM multipurpose frigate|Aquitaine]] class frigates. The attack submarines are also part of the [[Force Océanique Stratégique]] although they do not carry the nuclear dissuasion, the current class is the [[Rubis class submarine|Rubis Class]] and will be replaced in the future by the expected [[French Barracuda class submarine|Suffren Class]].
+[[File:French Army soldier.jpg|thumb|A French army [[soldier]]]]
+* The ''[[French Army|Armée de Terre]]'' employs 133,500 people. It is famous for the ''[[French Foreign Legion|Légion Etrangère]]'' (French Foreign Legion) though the French special forces are not the Legion but the [[13th Parachute Dragoon Regiment|Dragons Parachutistes]] and the [[1st Marine Infantry Parachute Regiment|Marines Parachutistes]]. The French assault rifle is the [[FAMAS (rifle)|FAMAS]] and future infantry combat system is the [[Félin]]. France uses both tracked and wheeled vehicles to a significant points, examples of wheeled vehicles would be the [[Camion équipé d'un système d'artillerie|Caesar]] or the [[AMX 10 RC]]. Although its main battle tank is the [[Leclerc]] many older [[AMX 30]] tanks are still operational. It uses the [[AMX 30 AuF1]] for artillery and is equipped with [[Eurocopter Tiger]]s helicopters.
+* The [[French Air Force|Armée de l'Air]] is the oldest and first professional air force worldwide. It still today retains a significant capacity. It uses mainly two aircraft fighters: the older [[Dassault Mirage F1|Mirage F1]] and the more recent [[Dassault Mirage 2000|Mirage 2000]]. The later model exists in a ground attack version called the [[Dassault Mirage 2000N/2000D|Mirage2000D]]. The modern [[Dassault Rafale|Rafale]] is in deployment in both the French air force and navy.
+
+== Transport ==
+{{Main|Transport in France|Rail transport in France}}
+[[File:TGV at Avignon.jpg|thumb|left|A [[SNCF TGV Sud-Est|TGV Sud-Est]].]]
+The [[railway]] network of France, which stretches {{convert|31840|km|mi|0}} is the most extensive in Western Europe. It is operated by the [[SNCF]], and high-speed trains include the [[Thalys]], the [[Eurostar]] and [[TGV]], which travels at  {{convert|320|km/h|mph|0|abbr=on}} in commercial use. The [[Eurostar]], along with the [[Eurotunnel Shuttle]], connects with the United Kingdom through the [[Channel Tunnel]]. Rail connections exist to all other neighbouring countries in Europe, except [[Andorra]]. Intra-urban connections are also well developed with both [[Rapid transit|underground services]] and [[tram]]way services complementing [[bus]] services.
+
+There are approximately {{convert|893300|km|mi|0}} of serviceable roadway in France. The Paris region is enveloped with the most dense network of roads and highways that connect it with virtually all parts of the country. French roads also handle substantial international traffic, connecting with cities in neighboring Belgium, Spain, Andorra, Monaco, Switzerland, Germany and Italy. There is no annual registration fee or road tax; however, motorway usage is through tolls except in the vicinity of large communes. The new car market is dominated by domestic brands such as [[Renault]] (27% of cars sold in France in 2003), [[Peugeot]] (20.1%) and [[Citroën]] (13.5%).<ref>L'automobile magazine, hors-série 2003/2004 page 294</ref> Over 70% of new cars sold in 2004 had [[diesel engine]]s, far more than contained [[petrol]] or [[Liquified petroleum gas|LPG]] engines.<ref>{{cite web|url=http://www.ademe.fr/particuliers/Fiches/voiture/rub3.htm |title=Guide pratique de l' ADEME, la voiture |publisher=Ademe.fr |date= |accessdate=2008-10-22}}</ref> France possesses the world's tallest road bridge: the [[Millau Viaduct]], and has built many important bridges such as the [[Pont de Normandie]].
+
+There are approximately 478 [[List of airports in France|airports]] in France, including landing fields. [[Paris-Charles de Gaulle Airport]] located in the vicinity of [[Paris]] is the largest and busiest airport in the country, handling the vast majority of popular and commercial traffic of the country and connecting Paris with virtually all major cities across the world. [[Air France]] is the national carrier airline, although numerous private airline companies provide domestic and international travel services. There are ten major ports in France, the largest of which is in [[Marseille]], which also is the largest bordering the Mediterranean Sea. {{convert|14932|km|mi|0}} of waterways traverse France including the [[Canal du Midi]] which connects the Mediterranean Sea to the Atlantic Ocean through the [[Garonne]] river.
+
+== Administrative divisions ==
+{{Main|Administrative divisions of France|Regions of France|Departments of France}}
+{{See also|Aire urbaine|List of communes in France with over 20,000 inhabitants (1999 census)}}
+[[File:France departements regions narrow.jpg|thumb|The 22 [[regions of France|regions]] and 96 [[departments of France|departments]] of [[metropolitan France]] includes [[Corsica]] (''Corse'', lower right). Paris area is expanded (inset at left)]]
+[[File:France-Constituent-Lands.png|thumb|The lands making up the French Republic, shown at the same [[scale (map)|geographic scale]].]]
+
+France is divided into 26 administrative [[Regions of France|regions]]. 22 are in [[metropolitan France]] (21 are on the continental part of metropolitan France; one is the territorial collectivity of [[Corsica]]), and four are [[overseas region]]s. The regions are further subdivided into 100 [[Departments of France|departments]] which are numbered (mainly alphabetically). This number is used in postal codes and vehicle number plates amongst others. The 100 departments are subdivided into 341 [[Arrondissements of France|arrondissements]] which are, in turn, subdivided into 4,032 [[Cantons of France|cantons]]. These cantons are then divided into 36,680 [[Communes of France|communes]], which are municipalities with an elected municipal council. There also exist 2,588 [[Communes in France#Intercommunality|intercommunal]] entities grouping 33,414 of the 36,680 communes (i.e. 91.1% of all the communes). Three communes, Paris, Lyon and Marseille are also subdivided into 45 [[Municipal arrondissements of France|municipal arrondissements]].
+
+The regions, departments and communes are all known as [[territorial collectivity|territorial collectivities]], meaning they possess local assemblies as well as an executive. Arrondissements and cantons are merely administrative divisions. However, this was not always the case. Until 1940, the arrondissements were also territorial collectivities with an elected assembly, but these were suspended by the [[Vichy France|Vichy regime]] and definitely abolished by the [[French Fourth Republic|Fourth Republic]] in 1946. Historically, the cantons were also territorial collectivities with their elected assemblies.
+
+=== Metropolitan regions and departments ===
+{| class="wikitable" style="font-size:90%;"
+|-
+! Region
+! Departments
+|-
+| {{flag|Alsace}}
+| [[Bas-Rhin]], [[Haut-Rhin]]
+|-
+| {{flag|Aquitaine}}
+| [[Dordogne]], [[Gironde]], [[Landes (department)|Landes]], [[Lot-et-Garonne]], [[Pyrénées-Atlantiques]]
+|-
+| {{flag|Auvergne}}
+| [[Allier]], [[Cantal]], [[Haute-Loire]], [[Puy-de-Dôme]]
+|-
+| {{flag|Basse-Normandie}}
+| [[Calvados]], [[Manche]], [[Orne]]
+|-
+| {{flag|Bourgogne}}
+| [[Côte-d'Or]], [[Nièvre]], [[Saône-et-Loire]], [[Yonne]]
+|-
+| {{flag|Bretagne}}
+| [[Côtes-d'Armor]], [[Finistère]], [[Ille-et-Vilaine]], [[Morbihan]]
+|-
+| {{flag|Centre}}
+| [[Cher (department)|Cher]], [[Eure-et-Loir]], [[Indre]], [[Indre-et-Loire]], [[Loiret]], [[Loir-et-Cher]]
+|-
+| {{flag|Champagne-Ardenne}}
+| [[Ardennes (department)|Ardennes]], [[Aube]], [[Haute-Marne]], [[Marne]]
+|-
+| {{flag|Corsica}} (''Corse'')
+| [[Corse-du-Sud]], [[Haute-Corse]]
+|-
+| {{flag|Franche-Comté}}
+| [[Doubs]], [[Haute-Saône]], [[Jura (department)|Jura]], [[Territoire de Belfort]]
+|-
+| {{flag|Haute-Normandie}}
+| [[Eure]], [[Seine-Maritime]]
+|-
+| {{flag|Île-de-France}}
+| [[Essonne]], [[Hauts-de-Seine]], [[Paris]], [[Seine-et-Marne]], [[Seine-Saint-Denis]], [[Val-de-Marne]], [[Val-d'Oise]], [[Yvelines]]
+|-
+| {{flag|Languedoc-Roussillon}}
+| [[Aude]], [[Gard]], [[Hérault]], [[Lozère]], [[Pyrénées-Orientales]]
+|-
+| {{flag|Limousin}}
+| [[Corrèze]], [[Creuse]], [[Haute-Vienne]]
+|-
+| {{flag|Lorraine}}
+| [[Meurthe-et-Moselle]], [[Meuse]], [[Moselle]], [[Vosges]]
+|-
+| {{flag|Midi-Pyrénées}}
+| [[Ariège]], [[Aveyron]], [[Gers]], [[Haute-Garonne]], [[Hautes-Pyrénées]], [[Lot (department)|Lot]], [[Tarn (department)|Tarn]], [[Tarn-et-Garonne]]
+|-
+| {{flag|Nord-Pas-de-Calais}}
+| [[Nord (department)|Nord]], [[Pas-de-Calais]]
+|-
+| {{flag|Pays de la Loire}}
+| [[Loire-Atlantique]], [[Maine-et-Loire]], [[Mayenne]], [[Sarthe]], [[Vendée]]
+|-
+| {{flag|Picardie}}
+| [[Aisne]], [[Oise]], [[Somme]]
+|-
+| {{flag|Poitou-Charentes}}
+| [[Charente]], [[Charente-Maritime]], [[Deux-Sèvres]], [[Vienne]]
+|-
+| {{flag|Provence-Alpes-Côte d'Azur}}
+| [[Alpes-de-Haute-Provence]], [[Alpes-Maritimes]], [[Bouches-du-Rhône]], [[Hautes-Alpes]], [[Var (department)|Var]], [[Vaucluse]]
+|-
+| {{flag|Rhône-Alpes}}
+| [[Ain]], [[Ardèche]], [[Drôme]], [[Haute-Savoie]], [[Isère]], [[Loire]], [[Rhône]], [[Savoie]]
+|}
+
+=== Overseas regions/departments, collectivities, and territories ===
+{{Main|Overseas departments and territories of France}}
+
+Among the 100 departments of France, four ([[French Guiana]], [[Guadeloupe]], [[Martinique]], and [[Réunion]]) are in overseas regions (ROMs) that are also simultaneously [[overseas department]]s (DOMs) and are an integral part of France (and the [[European Union]]) and thus enjoy a status similar to metropolitan departments.
+
+In addition to the 26 regions and 100 departments, the French Republic also has six [[overseas collectivity|overseas collectivities]] ([[French Polynesia]], [[Mayotte]], [[Saint Barthélemy]], [[Saint Martin (France)|Saint Martin]], [[Saint Pierre and Miquelon]], and [[Wallis and Futuna]]), one ''[[sui generis]]'' collectivity ([[New Caledonia]]), one [[overseas territory (France)|overseas territory]] ([[French Southern and Antarctic Lands]]), and one island possession in the Pacific Ocean ([[Clipperton Island]]). Overseas collectivities and territories form part of the French Republic, but do not form part of the European Union or its fiscal area. The Pacific Collectivities (COMs) of French Polynesia, Wallis and Fortuna, and New Caledonia continue to use the [[CFP franc|Pacific franc]] whose value is linked to that of the [[euro]]. In contrast, the four overseas regions used the French franc and now use the euro.
+
+== Economy ==
+{{Main|Economy of France|Energy in France}}
+{{See|List of French companies|Economic history of France}}
+[[File:A380 Reveal 2.jpg|thumb|The first completed [[Airbus A380]] at the “A380 Reveal” event in [[Toulouse]] on 18 January 2005. Airbus is a symbol of the globalisation of the French and European economy]]
+
+A member of the [[G8]] group of leading industrialised countries, it is ranked as the [[List of countries by GDP (nominal)|fifth largest]] economy by nominal [[GDP]].<ref>{{cite web|url=http://www.invest-in-france.org/uk/en/World-s-5th-Largest-Economy.html|title=World's 5th Largest Economy|publisher=Invest in France Agency}}</ref> France joined 11 other [[European Union|EU]] members to launch the [[euro]] on 1 January 1999, with [[euro coins]] and [[euro banknotes|banknotes]] completely replacing the French [[French franc|franc]] (₣) in early 2002.
+
+France's economy combines extensive private enterprise (nearly 2.5 million companies registered)<ref>{{cite web|url=http://www.insee.fr/fr/themes/tableau.asp?reg_id=0&ref_id=NATTEF09203|title=Entreprises selon le nombre de salariés et l'activité|publisher=[[INSEE]]|language=French|date=July 2008}}</ref><ref>{{cite web|url=http://www.insee.fr/fr/themes/tableau.asp?reg_id=0&ref_id=NATTEF9303|title=Entreprises publiques selon l'activité économique|publisher=[[INSEE]]|language=French|date=March 2009}}</ref> with substantial (though declining<ref name=CIAWorldFactbook>{{cite web|url=https://www.cia.gov/library/publications/the-world-factbook/geos/fr.html#Econ|work=[[The World Factbook]]|publisher=[[CIA]]|title=Economy : France - overview|date=2009}}</ref>) government intervention (see [[dirigisme]]). The government retains considerable influence over key segments of infrastructure sectors, with majority ownership of railway, electricity, aircraft, and telecommunications firms.<ref name=CIAWorldFactbook/> It has been gradually relaxing its control over these sectors since the early [[1990s#Economics|1990s]].<ref name=CIAWorldFactbook/> The government is slowly selling off holdings in [[France Télécom]], [[Air France]], as well as the insurance, banking, and defence industries.<ref name=CIAWorldFactbook/> France has an important aerospace industry led by the European consortium [[Airbus]], and has its own national [[spaceport]], the ''[[Centre Spatial Guyanais]]''.
+
+[[File:Golfech NPP cropped.jpg|thumb|left|upright|France relies heavily on nuclear power ([[Golfech]] reactor).]]
+According to the [[World Trade Organization|WTO]], in 2009 France was the world's sixth-largest exporter and the fifth-largest importer of manufactured goods.<ref>{{cite web|url=http://www.wto.org/english/res_e/statis_e/its2008_e/its2008_e.pdf |title=International Trade Statistics 2008|page=12|sub-title=Leading traders|date=2009|publisher=[[WTO]]}}</ref> In 2008, France was the third-largest recipient of [[foreign direct investment]] among OECD countries at $117.9 [[1000000000 (number)|billion]], ranking behind Luxembourg (where foreign direct investment was essentially monetary transfers to banks located in that country) and the United States ($316.1 billion), but above  the United Kingdom ($96.9 billion), Germany ($24.9 billion), or Japan ($24.4 billion).<ref name=FDI>{{cite web|url=http://www.unctad.org/sections/dite_dir/docs/wir09_fs_fr_en.pdf|publisher=[[UNCTAD]]|work=World Investment Report 2009|title=Country fact sheet: France}}</ref><ref name=FDI2>{{cite web|url=http://www.unctad.org/sections/dite_dir/docs/wir09_fs_jp_en.pdf|publisher=[[UNCTAD]]|work=World Investment Report 2009|title=Country fact sheet: Japan}}</ref> In the same year, French companies invested $220 billion outside of France, ranking France as the second most important outward direct investor in the OECD, behind the United States ($311.8 billion), and ahead of the United Kingdom ($111.4 billion), Japan ($128 billion) and Germany ($156.5 billion).<ref name=FDI/><ref name=FDI2/>
+
+France is the smallest emitter of [[Greenhouse gas|carbon dioxide]] among the seven most industrialized countries in the world, due to its [[Nuclear power in France|heavy investment]] in [[nuclear power]].<ref>{{cite web|url=http://unstats.un.org/unsd/environment/air_co2_emissions.htm|title=CO2 emissions per capita in 2006|publisher=[[United Nations]]|date=August 2009|work=Environmental Indicators |subtitle=Greenhouse Gas Emissions}}</ref> As a result of large investments in nuclear technology, most of the electricity produced in the country is generated by 59 nuclear power plants (78% in 2006,<ref>{{cite web |author=DGEMP / Observatoire de l'énergie|month=April | year=2007|url=http://www.industrie.gouv.fr/energie/statisti/se_elec.htm|title=Électricité en France: les principaux résultats en 2006|accessdate=2007-05-23}}</ref> up from only 8% in 1973, 24% in 1980, and 75% in 1990). In this context, renewable energies (see the power cooperative [[Enercoop]]) are having difficulties taking off the ground.
+
+Large tracts of fertile land, the application of modern technology, and EU subsidies have combined to make France the leading agricultural producer and exporter in Europe.<ref>{{cite web|url= http://www.diplomatie.gouv.fr/en/france_159/economy_6815/overview-of-the-french-economy_6831/key-figures-of-the-french-economy_1402.html#sommaire_1 |publisher= [[Minister of Foreign Affairs (France)|French Ministry of Foreign and European Affairs]]|title=Key figures of the French economy|quote=France is the world’s fifth largest exporter of goods (mainly durables). The country ranks fourth in services and third in agriculture (especially in cereals and the agri-food sector). It is the leading producer and exporter of farm products in Europe.}}</ref> Wheat, poultry, dairy, beef, and pork, as well as an internationally recognized [[food industry|foodstuff]] and [[French wine|wine]] industry are primary French agricultural exports. EU agriculture subsidies to France have decreased for the last years, but still amounted to $8 billion in 2007.<ref>{{cite web|url= http://ec.europa.eu/agriculture/fin/directaid/2007/annex1_en.pdf|title=Financial year 2007|work=Distribution of direct aid to farmers |publisher=[[European Commission]]|date=22 April 2009}}</ref>
+
+Since the end of the Second World War the government made efforts to integrate more and more with [[Germany]], both economically and politically. Today the two countries form what is often referred to as the “core” countries in favour of greater integration of the European Union.
+
+=== Labour market ===
+[[File:La Defense rascacielos.jpg|thumb|[[La Défense]], Paris is the heart of the French economy]]
+
+The French GDP per capita is similar the GDP per capita of other comparable European countries such as Germany and the United Kingdom.<ref>{{cite web|url=https://www.cia.gov/library/publications/the-world-factbook/rankorder/2004rank.html|title=Rank Order - GDP - per capita (PPP)|year=2008|publisher=The World Factbook}}</ref> GDP per capita is determined by (i) productivity per hour worked, which in France is [[List of countries by GDP (PPP) per capita per hour|the highest]] of the [[G8]] countries in 2005, according to the [[OECD]],<ref name="Labour2003">{{cite web |author=''OECD in Figures'' 2005, [[Organisation for Economic Co-operation and Development]] |publisher= |year=2005 |url=http://ocde.p4.siteinternet.com/publications/doifiles/012005061G006.xls |title=Labour productivity 2003 |format=[[Microsoft Excel]] |accessdate=2006-04-20}} ; in 2004, the GDP per hour worked in France was $48, ranking France above the United States ($46.3), Germany ($42.1), the United Kingdom ($39.6), or Japan ($32.5) ({{cite web |author=[[Organisation for Economic Co-operation and Development]]|year=2005 |url=http://www.oecd.org/dataoecd/30/40/29867116.xls |title=Differentials in GDP per capita and their decomposition, 2004 |format=[[Microsoft Excel]] |accessdate=2006-04-20}})</ref> (ii) the number of hours worked, which is one the lowest of developed countries,<ref>''Objectif croissance 2008'', OCDE, February 2008, page 67 ; graphic visible in the [http://www.oecd.org/dataoecd/44/19/40212481.pdf Summary page 8]; effective annual working duration in France is 1580 hours, compared to 1750 for developed countries</ref> and (iii) the employment rate. France has one of the lowest 15–64 years employment rates of the OECD countries: in 2004, only 69% of the French population aged 15–64 years were in employment, compared to 80% in Japan, 79% in the UK, 77% in the US, and 71% in Germany.<ref name="Employment2004">{{cite web |author=[[Organisation for Economic Co-operation and Development]] |publisher= |year=2005 |url=http://www.oecd.org/dataoecd/36/30/35024561.pdf |title=OECD Employment Outlook 2005 - Statistical Annex |format=PDF |accessdate=2006-06-29}}</ref> 
+
+This gap is due to the very low employment rates at both age extremes: the employment rate of people aged 55–64 was 38,3% in 2007, compared to 46,6% in the [[EU15]];<ref>{{cite web |author=[[INSEE]] |publisher= |year=2008 |url=http://www.insee.fr/fr/themes/tableau.asp?reg_id=98&ref_id=CMPECF03159 |title=Taux d'emploi des travailleurs âgés de 55 à 64 ans |accessdate=2008-09-01 |language=French}}</ref> for the 15–24 years old, the employment rate was 31,5% in 2007, compared to 37,2% in [[EU25]].<ref>{{cite web |author=[[INSEE]] |publisher= |year=2008 |url=http://www.insee.fr/fr/themes/tableau.asp?reg_id=98&ref_id=CMPTEF03135 |title=Taux d'emploi des jeunes de 15 à 24 ans dans l'Union européenne |accessdate=2008-09-01 |language=French}}</ref> These low employment rates are explained by the high [[minimum wages]] which prevent low productivity workers – such as young people – from easily entering the labour market,<ref>{{cite web |authorlink=Philippe Aghion|author=Philippe Aghion|coauthors=Gilbert Cette, Élie Cohen and [[Jean Pisani-Ferry]]|publisher=Conseil d'analyse économique|year=2007|url=http://www.cae.gouv.fr/rapports/dl/072.pdf |title=Les leviers de la croissance française |accessdate=2008-09-01|language=French |page=55|format=PDF}}</ref> ineffective university curricula that fail to prepare students adequately for the labour market,<ref>{{cite web|url=http://www.olis.oecd.org/olis/2007doc.nsf/LinkTo/NT00002ECA/$FILE/JT03230693.PDF|title=Enhancing Incentives to Improve Performances in the Education System in France|publisher=OECD|date=1 August 2007|quote=Initial education, especially secondary education and the universities, along with labour market policies themselves, do not always succeed in improving labour market entry for a significant proportion of young people.|format=PDF}}</ref> and, concerning the older workers, restrictive legislation on work and incentives for premature retirement.<ref>{{cite web|url=http://www.oecd.org/dataoecd/42/35/40904315.pdf|title=Employment Outlook 2008 – How does FRANCE compare?|publisher=OECD|quote=Only 38% of people aged 55 to 64 are working, 15.5 percentage points less than the OECD average.|format=PDF}}</ref><ref>{{cite web|url=http://www.oecdobserver.org/news/fullstory.php/aid/1672/|title=France: Jobs and older workers|publisher=OECD Observer}}</ref>
+
+The unemployment rate decreased from 9% in 2006 to 7% in 2008 but remains one of the highest in Europe.<ref>{{cite web |author=[[INSEE]] |publisher= |year=2008 |url=http://www.insee.fr/fr/themes/tableau.asp?reg_id=99&ref_id=CMRSOS03311 |title=Taux de chômage ; France métropolitaine |accessdate=2008-09-01 |language=French}}</ref><ref>{{cite web |author=[[INSEE]] |publisher= |year=2008 |url=http://www.insee.fr/fr/themes/tableau.asp?reg_id=98&ref_id=CMPTEF03309 |title=Chômage dans l'Union européenne |accessdate=2008-09-01 |language=French}}</ref> In June 2009, the unemployment rate for France was 9.4%.<ref>[http://epp.eurostat.ec.europa.eu/tgm/table.do?tab=table&language=en&pcode=teilm020&tableSelection=1&plugin=1 Harmonised unemployment rate by gender - total - % (SA)]. Eurostat.</ref>
+Shorter working hours and the reluctance to reform the labour market are mentioned as weak spots of the French economy in the view of the [[right wing politics|right]], when the [[left wing politics|left]] mentions the lack of government policies fostering social justice. [[liberal theory of economics|Liberal economists]] have stressed repeatedly over the years that the main issue of the French economy is an issue of structural reforms, in order to increase the size of the working population in the overall population, reduce the taxes' level and the administrative burden. [[Keynesian economics|Keynesian economists]] have different answers to the unemployment issue, and their theories led to the [[35-hour workweek]] law in the early 2000s, which turned out to be failure in reducing unemployment. Afterwards, between 2004 and 2008, the Government made some supply-oriented reforms to combat unemployment but met with fierce resistance, especially with the ''[[contrat nouvelle embauche]]'' and the ''[[contrat première embauche]]'' which both were eventually repealed. The current Government is experiencing the ''[[Revenu de solidarité active]]''.
+
+=== Tourism ===
+{{Main|Tourism in France}}
+[[File:Chateau-de-versailles-cour.jpg|thumb|The [[Palace of Versailles]] is one of the most popular tourist destinations in France.]]
+
+With 81.9 million foreign tourists in 2007,<ref name="tourism.stat" /> France is [[World Tourism Rankings|ranked]] as the first tourist destination in the world, ahead of [[Spain]] (58.5 million in 2006) and the [[United States]] (51.1 million in 2006). This 81.9 million figure excludes people staying less than 24 hours in France, such as northern Europeans crossing France on their way to Spain or Italy during the Summer. France features cities of high cultural interest ([[Paris]] being the foremost), beaches and seaside resorts, [[ski]] resorts, and rural regions that many enjoy for their beauty and tranquillity (green tourism). Aside from casual tourism France attracts a lot of religious pilgrims to [[Lourdes]], a town in the Hautes-Pyrénées département, that hosts a few million tourists a year. 
+
+Popular tourist sites include: (according to a 2003 ranking<ref>{{cite web|url=http://www2.culture.gouv.fr/deps/mini_chiff_03/fr/musee.htm|title=Musées et Monuments historiques}}</ref> visitors per year): [[Eiffel Tower]] (6.2 million), [[Louvre|Louvre Museum]] (5.7 million), [[Palace of Versailles]] (2.8 million), [[Musée d'Orsay]] (2.1 million), [[Arc de Triomphe]] (1.2 million), [[Centre Georges Pompidou|Centre Pompidou]] (1.2 million), [[Mont-Saint-Michel]] (1 million), [[Château de Chambord]] (711,000), [[Sainte-Chapelle]] (683,000), [[Château du Haut-Kœnigsbourg]] (549,000), [[Puy-de-Dôme (mountain)|Puy de Dôme]] (500,000), [[Musée Picasso]] (441,000), [[Carcassonne]] (362,000).
+
+== Demography ==
+{{Main|Demography of France|Languages of France|French people}}
+[[File:France population density 40pc.png|thumb|right|[[Population density]] in the French Republic at the 1999 census.]]
+[[File:France cities.png|thumb|Metropolitan French cities with over 100,000 inhabitants]]
+
+With an estimated population of 65.1 million people,<ref name=population /> France is the 19th most populous country in the world. France's [[List of cities in France over 20,000 population (1999 census)|largest cities]] are [[Paris]], [[Marseille]], [[Lyon]], [[Lille]], [[Toulouse]], [[Nice]], and [[Nantes]].
+
+In 2003, France's natural population growth (excluding [[immigration]]) was responsible for almost all natural population growth in the [[European Union]]. In 2004, population growth was 0.68% and then in 2005 birth and fertility rates continued to increase. The natural increase of births over deaths rose to 299,800 in 2006. The [[total fertility rate]] rose to 2.02 in 2008,<ref name=population /> from 1.88 in 2002.<ref>{{cite web|url=http://www.insee.fr/fr/ppp/bases-de-donnees/irweb/sd2006/dd/excel/sd2006_t44_fe.xls|title=Tableau 44 - Taux de fécondité générale par âge de la mère 
+|first=[[Government of France]]|last=[[INSEE]]|accessdate=2009-01-13}} {{fr icon}}</ref>
+
+[[File:New-Map-Francophone World.PNG|200px|thumb|left|France's legacy: a map of the [[French language|Francophone]] world
+{{legend|#0c5eb1|native language}}
+{{legend|#0080ff|administrative language}}
+{{legend|#9fceff|secondary or non-official language}}
+{{legend|#00ff00|francophone minorities}}]]
+
+In 2004, a total of 140,033 people immigrated to France. Of them, 90,250 were from [[Africa]] and 13,710 from [[Europe]].<ref>{{cite web|url=http://www.migrationinformation.org/datahub/countrydata/data.cfm|title=Inflow of third-country nationals by country of nationality|year=2004}}</ref> In 2005, immigration level fell slightly to 135,890.<ref>{{cite web|url=http://www.migrationpolicy.org/pubs/France_Elections050307.pdf|title=Immigration and the 2007 French Presidential Elections|format=PDF}}</ref> 
+
+It is illegal for the French state to collect data on ethnicity and race, a law with its origins in the [[French Revolution|1789 revolution]] and reaffirmed in the [[French Constitution|constitution of 1958]].<ref name="Oppenheimer">{{cite journal|last=Oppenheimer|first=David B.|date=2008|title=Why France needs to collect data on racial identity...in a French way|journal=Hastings International and Comparative Law Review|volume=31|issue=2|pages=735–752|url=http://papers.ssrn.com/sol3/papers.cfm?abstract_id=1236362}}</ref> Nonetheless, France is an ethnically diverse nation with about six million North Africans and an estimated 2.5 million blacks.<ref>[http://www.washingtonpost.com/wp-dyn/articles/A12396-2005Apr23.html Europe's Minority Politicians in Short Supply]. The Washington Post. April 24, 2005.</ref><ref>[http://www.csmonitor.com/2007/0112/p01s04-woeu.html In officially colorblind France, blacks have a dream - and now a lobby]. Csmonitor.com. January 12, 2007.</ref> It is currently estimated that 40% of the French population descends from different waves of migrations.<ref>[http://abcnews.go.com/International/story?id=1280843 Paris Riots in Perspective]. ABC News. November 4, 2005.</ref>  According to the [[INSEE|French National Institute for Statistics and Economic Studies]], it has an estimated 4.9 million foreign-born immigrants, of which 2 million have acquired French citizenship.<ref name="INSEE1">{{cite web |author=INSEE |publisher= |url=http://www.insee.fr/fr/ffc/ipweb/ip1098/ip1098.html#encadre1 |title=Enquêtes annuelles de recensement 2004 et 2005 |date=2005-01-25|accessdate=2006-12-14}} {{fr icon}}</ref> France is the leading [[refugee|asylum]] destination in Western Europe with an estimated 50,000 applications in 2005 (a 15% decrease from 2004).<ref name="UNHCR">{{cite web |author=[[UNHCR]] |publisher= |year=2006 |url=http://www.unhcr.org/publ/PUBL/4492677f0.pdf |title=UNHCR Global Report 2005: Western Europe |accessdate=2006-12-14 |format=PDF}}</ref> The [[European Union]] allows free movement between the member states. While [[Ireland]] did not impose restrictions, France put in place controls to curb [[Eastern European]] migration.
+
+A perennial political issue concerns [[rural depopulation]]. Over the period 1960–1999 fifteen rural ''départements'' experienced a decline in population. In the most extreme case, the population of [[Creuse]] fell by 24%.
+
+According to Article 2 of the Constitution, [[French language|French]] is the sole official language of France since 1992. This makes France the only Western European nation (excluding [[European microstates|microstates]]) to have only one officially recognised language. However, 77 [[Languages of France|regional languages]] are also spoken, in metropolitan France as well as in the overseas departments and territories. Until recently, the French government and state school system discouraged the use of any of these languages, but they are now taught to varying degrees at some schools.<ref>{{cite web|url=http://www.anu.edu.au/NEC/Archive/Jeanjean_paper.pdf|title=Jeanjean, Henri. “Language Diversity in Europe: Can the EU Prevent the Genocide of French Linguistic Minorities?”|format=PDF}}</ref> Other languages, such as [[Portuguese language|Portuguese]], [[Italian language|Italian]], [[Maghrebi Arabic]] and several [[Berber languages]] are spoken by immigrants.
+
+== Religion ==
+{{Main|Religion in France}}
+France is a [[secular]] country as freedom of religion is a constitutional right. According to a January 2007 poll by the Catholic World News:<ref>{{cite web |author=Catholic World News |publisher= |year=2003 |url=http://www.catholicculture.org/news/features/index.cfm?recnum=48547 |title=France is no longer Catholic, survey shows |accessdate=2009-12-19}}</ref><ref name="religion">{{ro icon}} [http://www.cotidianul.ro/franta_nu_mai_e_o_tara_catolica-20395.html Franţa nu mai e o ţară catolică], ''[[Cotidianul]]'' 2007-01-11</ref> 51% identified as being [[Catholicism|Catholics]], 31% identified as being [[agnosticism|agnostics]] or [[atheism|atheists]] ''(another poll<ref>La Vie, issue 3209, 2007-03-01 {{fr icon}}</ref> sets the proportion of atheists equal to 27%)'', 10% identified as being from other religions or being without opinion, 4% identified as [[Islam|Muslim]], 3% identified as [[Protestantism|Protestant]], 1% identified as [[Buddhism|Buddhist]], 1% identified as [[Judaism|Jewish]].
+
+According to the most recent [[Eurobarometer|Eurobarometer Poll]] 2005,<ref name=EUROBAROMETER>{{cite web|url=http://ec.europa.eu/public_opinion/archives/ebs/ebs_225_report_en.pdf|title=Eurobarometer on Social Values, Science and technology 2005 – page 11|accessdate=2007-05-05|format=PDF}}</ref> 34% of French citizens responded that “they believe there is a god”, whereas 27% answered that “they believe there is some sort of spirit or life force” and 33% that “they do not believe there is any sort of spirit, god, or life force”. One other study shows 32% of people in France declaring themselves to be [[atheists]], and another 32% declaring themselves
+“sceptical about the existence of God but not an atheist”.<ref>[http://www.harrisinteractive.com/news/allnewsbydate.asp?NewsID=1131 Religious Views and Beliefs Vary Greatly by Country], Financial Times/Harris Poll, December 2006</ref>
+
+Estimates of the number of [[Islam in France|Muslims in France]] vary widely. According to the 1999 French census returns, there were 3.7 million people of “possible Muslim faith” in France (6.3% of the total population). In 2003, the French Ministry of the Interior estimated the total number of Muslims to be between five and six million (8-10%).<ref>[http://www.guardian.co.uk/world/2004/apr/23/france.islam France to train imams in 'French Islam'], The Guardian</ref><ref>{{cite web|url=http://www.state.gov/g/drl/rls/irf/2005/51552.htm|title=France - International Religious Freedom Report 2005}}</ref> The current [[Jews in France|Jewish community in France]] numbers around 600,000 according to the [[World Jewish Congress]] and is the largest in Europe. 
+
+The concept of ''[[laïcité]]'' exists in France and because of this, since 1905, the French government is legally prohibited from recognizing any ''religion'' (except for legacy statutes like those of military [[chaplain]]s and [[Alsace-Moselle]]). Instead, it merely recognizes ''religious organizations'', according to formal legal criteria that do not address religious doctrine. Conversely, religious organizations should refrain from intervening in policy-making. 
+
+Certain body of beliefs such as [[Scientology]], [[Children of God]], the [[Unification Church]], or the [[Order of the Solar Temple]] are considered [[sect]]s,<ref>{{cite web|url=http://www.assemblee-nationale.fr/rap-enq/r2468.asp|title=Commission d’enquête sur les sectes}}</ref> and therefore do not have the same status as religions in France. "Sect" is considered a pejorative term in France.<ref>{{cite web|url=http://www.understandfrance.org/France/Society2.html |title=Society2 ; religion in France ; beliefs ; secularism (laicité) |publisher=Understandfrance.org |date= |accessdate=2009-09-20}}</ref>
+
+== Public health ==
+{{Main|Health in France}}
+[[Health in France|The French healthcare system]] was ranked first worldwide by the [[World Health Organization]] in 1997.<ref>{{cite web|url=http://www.photius.com/rankings/healthranks.html|title=the ranking, see spreadsheet details for a whole analysis}}</ref> Care is generally free for people affected by [[chronic disease]]s (Affections de longues durées) such as [[cancers]], [[AIDS]] or [[Cystic Fibrosis]]. Average life expectancy at birth is 79.73 years.
+
+As of 2007, there are approximately 140,000 inhabitants (0.4%) of France who are living with HIV/AIDS.<ref>{{cite web|url=https://www.cia.gov/library/publications/the-world-factbook/geos/fr.html|title=CIA – The World Factbook – France|publisher=CIA}}</ref>
+
+France, as all EU countries, is under an [[EU]] directive to reduce sewage discharge to sensitive areas. As of 2006, France is only 40% in compliance with this directive, placing it as one of the lowest achieving countries within the EU with regard to this [[wastewater treatment]] standard.<ref>{{cite web|url=http://epaedia.eea.europa.eu/page.php?pid=502 |title=EEA.Europa.eu |publisher=Epaedia.eea.europa.eu |date= |accessdate=2008-10-22}}</ref>
+
+The [[death]] of [[Chantal Sébire]] revived the debate over [[euthanasia]] in France. It was reported on March 21, 2008.<ref>{{cite web|url=http://edition.cnn.com/2008/WORLD/europe/03/21/euthanasia.debate.ap/index.html|title=France searches its soul after euthanasia plea woman dies|publisher=CNN.com}}</ref>
+
+== Culture ==
+[[File:Claude Monet 1899 Nadar.jpg|thumb|upright|[[Claude Monet]], founder of the [[Impressionist]] movement]]
+{{Main|Culture of France}}
+
+=== Architecture ===
+{{Main|French architecture}}
+There is, technically speaking, no architecture named ''French Architecture'', although that has not always been true. [[Gothic Architecture]]'s old name was ''French Architecture'' (or Opus Francigenum). The term “Gothic” appeared later as a stylistic insult and was widely adopted. Northern France is the home of some of the most important Gothic [[cathedrals]] and [[basilicas]], the first of these being the [[Saint Denis Basilica]] (used as the royal necropolis); other important French Gothic cathedrals are [[Cathedral of Chartres|Notre-Dame de Chartres]] and [[Amiens Cathedral|Notre-Dame d'Amiens]]. The kings were crowned in another important Gothic church: [[Notre-Dame de Reims]]. Aside from churches, Gothic Architecture had been used for many religious palaces, the most important one being the [[Palais des Papes]] in Avignon.
+[[File:Sainte chapelle - Upper level.jpg|thumb|left|[[Louis IX of France|Saint Louis']] [[Sainte Chapelle]] represents the French impact on religious architecture.]]
+During the Middle Ages, fortified [[castle]]s were built by feudal nobles to mark their powers against their rivals. When [[Philip II of France|King Philip II]] took [[Rouen]] from [[John of England|King John]], for example, he demolished the ducal castle to build a bigger one. Fortified cities were also common, unfortunately most French castles did not survive the passage of time. This is why [[Richard I of England|Richard the Lionheart's]] [[Château-Gaillard]] was demolished, as well as the [[Château de Lusignan]]. Some important French castles that survived are [[Chinon (castle)|Chinon]], [[Château d'Angers]], the massive [[Château de Vincennes]] and the so called [[Cathar castles]].
+
+Before the appearance of this architecture France had been using [[Romanesque architecture]] like most of Western Europe (with the exception of the Iberian Peninsula, which used Mooresque architecture). Some of the greatest examples of Romanesque churches in France are the [[Basilique de Saint-Sernin, Toulouse|Saint Sernin Basilica]] in Toulouse and the remains of the [[Cluny Abbey|Cluniac Abbey]] (largely destroyed during the Revolution and the Napoleonic Wars).
+
+The end of the Hundred Years' War marked an important stage in the evolution of French architecture. It was the time of the [[French Renaissance]] and several artists from Italy and Spain were invited to the French court; many residential palaces, Italian-inspired, were built, mainly in the Loire Valley. Such residential castles were the [[Château de Chambord]], the [[Château de Chenonceau]], or the [[Château d'Amboise]]. Following the renaissance and the end of the Middle Ages, [[Baroque Architecture]] replaced the gothic one. However, in France, baroque architecture found a greater success in the secular domain than in the religious one.<ref>Claude Lébedel – Les Splendeurs du Baroque en France: ''Histoire et splendeurs du baroque en France'' page 9: “Si en allant plus loin, on prononce les mots ‘art baroque en France’, on provoque alors le plus souvent une moue interrogative, parfois seulement étonnée, parfois franchement réprobatrice: Mais voyons, l'art baroque n'existe pas en France!”</ref> In the secular domain the [[Palace of Versailles]] has many baroque features. [[Jules Hardouin Mansart]] can be said to be the most influential French architect of the baroque style, with his very famous baroque dome of [[Les Invalides]]. Some of the most impressive provincial baroque architecture is found in places that were not yet French such as the [[Place Stanislas]] in [[Nancy]]. On the military architectural side [[Vauban]] designed some of the most efficient fortresses of Europe and became a very influential military architect.
+
+[[File:Eiffel-tower-2008.jpg|thumb|left|upright|The [[Eiffel Tower]] is an icon of both Paris and France]]
+After the Revolution the Republicans favoured [[Neoclassicism]] although neoclassicism was introduced in France prior to the revolution with such building as the [[Panthéon, Paris|Parisian Pantheon]] or the [[Capitole de Toulouse]]. Built during the French Empire the [[Arc de Triomphe]] and [[Église de la Madeleine|Sainte Marie-Madeleine]] represent this trend the best.
+
+Under Napoleon III a new wave of urbanism and architecture was given birth. If some very extravagant buildings such as the [[neo-baroque]] [[Palais Garnier]] were built, the urban planning of the time was very organised and rigorous. For example [[Baron Haussmann]] [[Haussmann's renovation of Paris|rebuilt Paris]]. The architecture associated to this era is named [[Second Empire (architecture)|Second Empire]] in the English speaking world, the term being taken from the [[Second French Empire]]. These times also saw a strong Gothic-Revival trend across Europe, in France the associated architect was [[Eugène Viollet-le-Duc]]. In the late 19th century [[Gustave Eiffel]] designed many bridges (like the [[Garabit viaduct]]) and remains one of the most influential bridge designer of his time, although he is best remembered for the [[Eiffel Tower]].
+
+In the 20th century the Swiss Architect [[Le Corbusier]] designed several buildings in France. More recently French architects have combined both modern and old architectural styles. The [[Louvre Pyramid]] is a good example of modern architecture added to an older building. Certainly the most difficult buildings to integrate within French cities are skyscrapers, as they are visible from afar. France's largest financial district is [[La Defense]], where a significant number of skyscrapers are located. Other massive buildings that are a challenge to integrate into their environment are large bridges; a good example of the way this has been done is the [[Millau Viaduct]]. Some famous modern French architects include [[Jean Nouvel]] or [[Paul Andreu]].
+
+[[File:Molière - Nicolas Mignard (1658).jpg|thumb|upright|[[Molière]] is the most played author in the [[Comédie-Française]]]]
+
+=== Literature ===
+{{Main|French literature}}
+The earliest French literature dates from the Middle Ages when the area that is modern France did not have a single, uniform language. There were several languages and dialects and each writer used his own spelling and grammar. The author of many French mediaeval texts is unknown, for example [[Tristan and Iseult]] and [[Lancelot and the Holy Grail]]. Much mediaeval French poetry and literature was inspired by the legends of the [[Matter of France]], such as the [[The Song of Roland]] and the various [[Chansons de geste]]. The “Roman de Renart”, written in 1175 by [[Perrout de Saint Cloude]] tells the story of the mediaeval character [[Reynard]] ('the Fox') and is another example of early French writing. The names of some authors from this period are known, for example [[Chrétien de Troyes]] and [[William IX of Aquitaine|Duke William IX of Aquitaine]], who wrote in [[Occitan]].
+
+An important 16th century writer was [[François Rabelais]] who influenced modern French vocabulary and metaphor. During the 17th century [[Pierre Corneille]], [[Jean Racine]] and [[Molière]]'s plays, [[Blaise Pascal]] and [[René Descartes]]'s moral and philosophical books deeply influenced the aristocracy leaving an important heritage for the authors of the following decades. [[Jean de La Fontaine]] was an important poet from this century.
+[[File:Charles Baudelaire2.jpg|thumb|upright|19th century poet, writer, and translator [[Charles Baudelaire]].]]
+French literature and poetry flourished in the 18th and 19th centuries. The 18th century saw the works of writers, essayists and moralists such as [[Voltaire]], [[Denis Diderot]] and [[Jean-Jacques Rousseau]].
+[[Charles Perrault]] was a prolific writer of children's stories such as: “[[Puss in Boots]]”, “[[Cinderella]]”, “[[Sleeping Beauty]]” and “[[Bluebeard]]”.
+
+At the turn of the 19th century [[symbolist poetry]] was an important movement in French literature, with poets such as [[Charles Baudelaire]], [[Paul Verlaine]] and [[Stéphane Mallarmé]]. The 19th century saw the writing of many French novels of world renown with [[Victor Hugo]] (''[[Les Misérables]]''), [[Alexandre Dumas]] (''[[The Three Musketeers]]'' and ''[[The Count of Monte-Cristo]]''), and [[Jules Verne]] (''[[Twenty Thousand Leagues Under the Sea]]'') among the most well-known in France and beyond. Other 19th century fiction writers include [[Emile Zola]], [[Guy de Maupassant]], [[Théophile Gautier]] and [[Stendhal]].
+
+The [[Prix Goncourt]] is a French literary prize first awarded in 1903. Important writers of the 20th century include [[Marcel Proust]], [[Louis-Ferdinand Céline]], [[Albert Camus]], and [[Jean-Paul Sartre]]. [[Antoine de Saint Exupéry]] wrote ''[[The Little Prince|Little Prince]]'' which has remained popular for decades with children and adults around the world.
+
+=== Sport ===
+{{Main|Sport in France}}
+[[File:TourDeFrance 2005 07 09.jpg|thumb|[[Tour de France]]]]
+
+Popular sports include [[Association football|football]], both codes of [[rugby football]] and in certain regions [[basketball]] and [[Team handball|handball]]. France has hosted events such as the [[1938 FIFA World Cup|1938]] and [[1998 FIFA World Cup]]s, and hosted the [[2007 Rugby Union World Cup]]. [[Stade de France]] in [[Paris]] is the largest stadium in France and was the venue for the 1998 FIFA World Cup final, and hosted the 2007 Rugby World Cup final in October 2007. France also hosts the annual [[Tour de France]], the most famous [[road bicycle race]] in the world. France is also famous for its [[24 Hours of Le Mans]] [[sports car racing|sports car]] [[Endurance racing (motorsport)|endurance race]] held in the [[Sarthe]] department. Several major [[tennis]] tournaments take place in France, including the [[Paris Masters]] and the [[French Open]], one of the four [[Grand Slam (tennis)|Grand Slam]] tournaments.
+
+France has a close association with the [[Olympic Games|Modern Olympic Games]]; it was a French aristocrat, Baron [[Pierre de Coubertin]], who suggested the Games' revival, at the end of the 19th century. After [[Athens]] was awarded the first Games, in reference to the Greek origins of the ancient Olympics, [[Paris]] hosted the second Games [[1900 Summer Olympics|in 1900]]. [[Paris]] was also the first home of the [[International Olympic Committee]], before it moved to [[Lausanne]]. Since that 1900 Games, France has hosted the Olympics on four further occasions: the [[1924 Summer Olympics]], again in [[Paris]] and three [[Winter Olympic Games|Winter Games]] ([[1924 Winter Olympics|1924]] in [[Chamonix]], [[1968 Winter Olympics|1968]] in [[Grenoble]] and [[1992 Winter Olympics|1992]] in [[Albertville]]).
+
+Both the [[France national football team|national football team]] and the [[France national rugby union team|national rugby union team]] are nicknamed “''Les Bleus''” in reference to the team’s shirt color as well as the national French tricolor flag. The football team is among the most successful in the world, particularly at the turn of the 21st century, with one [[FIFA World Cup]] victory in 1998, one FIFA World Cup second place in 2006, and two [[UEFA European Football Championship|European Championships]] in [[1984 UEFA European Football Championship|1984]] and [[2000 UEFA European Football Championship|2000]]. The top national football club competition is the [[Ligue 1]]. Rugby is also very popular, particularly in Paris and the southwest of France. The national rugby team has competed at every [[Rugby World Cup]], and takes part in the annual [[Six Nations Championship]]. Following from a [[Top 14|strong domestic tournament]] the French rugby team has won sixteen Six Nations Championships, including eight grand slams; and have reached the semi-finals and final of the [[Rugby World Cup]].
+
+=== Marianne ===
+{{Main|Marianne}}
+[[File:Delacroix - La liberte.jpg|thumb|200|right|[[Marianne]]]]
+
+'''Marianne''' is a symbol of the French Republic. She is an allegorical figure of liberty and the Republic and first appeared at the time of the [[French Revolution]]. The earliest representations of Marianne are of a woman wearing a [[Phrygian cap]]. The origins of the name Marianne are unknown, but Marie-Anne was a very common first name in the 18th century. Anti-revolutionaries of the time derisively called her La Gueuse (the Commoner). It is believed that revolutionaries from the South of France adopted the Phrygian cap as it symbolised liberty, having been worn by freed slaves in both Greece and Rome. Mediterranean seamen and convicts manning the galleys also wore a similar type of cap.
+
+Under the Third Republic, statues, and especially busts, of Marianne began to proliferate, particularly in town halls. She was represented in several different manners, depending on whether the aim was to emphasise her revolutionary nature or her “[[wisdom]]”. Over time, the Phrygian cap was felt to be too seditious, and was replaced by a [[diadem]] or a [[crown (headgear)|crown]]. In recent times, famous French women have been used as the model for those busts. Recent ones include [[Sophie Marceau]], and [[Laetitia Casta]]. She also features on everyday articles such as [[postage stamps]] and [[coins]].
+
+== International rankings ==
+{{Main|International rankings of France}}
+* Total [[Gross domestic product|GDP]], 2007: [[List of countries by GDP (nominal)|5th (out of 179)]] ([[IMF]] data)
+* Total value of [[foreign trade]] ([[International trade|imports]] and [[exports]]) , 2002: 4th (out of 185)
+* [[Reporters Without Borders]] worldwide press freedom index 2005: Rank 35 out of 167 countries
+* [http://www.transparency.org/content/download/10825/92857/version/1/file/CPI_2006_presskit_eng.pdf Transparency International Corruption Perceptions Index 2006] – 18th of 163 countries
+{{clear}}
+
+== See also ==
+{{portal|France|Flag of France.svg}}
+{{Main|Outline of France}}
+*[[Linguistic imperialism]]
+{{-}}
+
+== Notes and references ==
+<!-- Please DO NOT use a scroll template or form/table for the reflink, please read warning on the scroll template page. Thank you -->
+{{reflist|2}}
+
+== External links ==
+{{sisterlinks|France}}
+;Government
+* [http://www.service-public.fr/etranger/english.html Official site of the French public service] – Links to various administrations and institutions
+* [http://www.frenchculturenow.com/ Frenchculturenow.com: French society, culture, politics news]
+* [http://www.ambafrance-uk.org/ Official site of the French Embassy in the United Kingdom]
+* [https://www.cia.gov/library/publications/world-leaders-1/world-leaders-f/france.html Chief of State and Cabinet Members]
+
+;Culture
+* [http://cocorico.com/ Cocorico! French culture]
+* [http://www.french.uiuc.edu/cfc/ ''Contemporary French Civilization''], journal, University of Illinois.
+
+;General
+* [http://news.bbc.co.uk/2/hi/europe/country_profiles/998481.stm France], from the [[BBC]]
+* [http://www.britannica.com/tools/France France], from the ''[[Encyclopædia Britannica]]''
+* {{CIA World Factbook link|fr|France}}
+* [http://ucblibraries.colorado.edu/govpubs/for/france.htm France] at ''UCB Libraries GovPubs''
+* {{dmoz|Regional/Europe/France}}
+* {{wikiatlas|France}}
+* {{wikitravel}}
+* [http://stats.oecd.org/WBOS/Index.aspx?QueryId=14594 OECD France statistics]
+{{Coord|47|N|2|E|type:country_region:FR|display=title}}
+
+<br />{{Geographic Location (8-way)
+ | Northwest = ''[[Celtic Sea]] • ''{{flag|United Kingdom}}<br />''[[English Channel]]'' • <small>[[Channel Islands]]</small>
+ | North = {{flag|United Kingdom}} • ''[[North Sea]]''<br />''[[Strait of Dover]]'' • {{flag|Belgium}}
+ | Northeast = {{flag|Belgium}} • {{flag|Luxembourg}}<br />{{flag|Germany}}
+ | West = ''[[Bay of Biscay]]''
+ | Centre = {{flagicon|France}} [[Outline of France|France]]
+ | East = {{flag|Switzerland}}
+ | Southwest = ''[[Bay of Biscay]] • ''{{flag|Spain}}
+ | South = <small>{{flag|Andorra}}</small> • ''[[Mediterranean Sea]]''<br />{{flag|Spain}} • {{flag|Algeria}}
+ | Southeast = <small>{{flag|Monaco}}</small> • {{flag|Italy}}<br />''[[Ligurian Sea]]''}}
+{{Template group
+|title = Articles Related to France
+|list =
+{{Template group
+|title = [[File:Gnome-globe.svg|25px]]{{nbsp}}Geographic locale
+|list =
+{{Coord|47|N|2|E|type:country_region:FR|display=title}}
+{{Countries of Europe}}
+{{Countries of North America}}
+{{Countries of South America}}
+{{Countries of Africa}}
+{{Countries and territories of Oceania}}
+{{Countries and territories bordering the Mediterranean Sea}}
+}}
+{{Template group
+|title = France in the European Union
+|list =
+{{EU members}}
+}}
+{{Template group
+|title = International organisations
+|list =
+{{G8 nations}}
+{{UN Security Council}}
+{{Council of Europe members}}
+{{Organisation for Economic Co-operation and Development}}
+{{North Atlantic Treaty Organisation (NATO)}}
+{{Latinunion}}
+{{La Francophonie}}
+}}
+{{National personifications}}
+}}
+
+[[Category:France| ]]
+[[Category:European sovereign states]]
+[[Category:European Union member states]]
+[[Category:Member states of La Francophonie]]
+[[Category:Republics]]
+[[Category:Countries of the Mediterranean Sea]]
+[[Category:Countries bordering the Atlantic Ocean]]
+[[Category:Alpine countries]]
+[[Category:French-speaking countries]]
+[[Category:G8 nations]]
+[[Category:G20 nations]]
+[[Category:Liberal democracies]]
+[[Category:Western Europe]]
+[[Category:Member states of the Union for the Mediterranean]]
+
+{{Link FA|ceb}}
+{{Link FA|eo}}
+{{Link FA|gv}}
+
+[[ace:Peurancih]]
+[[af:Frankryk]]
+[[als:Frankreich]]
+[[am:ፈረንሣይ]]
+[[ang:Francland]]
+[[ar:فرنسا]]
+[[an:Franzia]]
+[[arc:ܦܪܢܣܐ]]
+[[roa-rup:Gallia]]
+[[frp:France]]
+[[ast:Francia]]
+[[gn:Hyãsia]]
+[[az:Fransa]]
+[[bm:Franse]]
+[[bn:ফ্রান্স]]
+[[zh-min-nan:Hoat-kok]]
+[[ba:Франция]]
+[[be:Францыя]]
+[[be-x-old:Францыя]]
+[[bcl:Pransya]]
+[[bi:Franis]]
+[[bar:Frankreich]]
+[[bo:ཧྥ་རན་སི།]]
+[[bs:Francuska]]
+[[br:Bro-C'hall]]
+[[bg:Франция]]
+[[ca:França]]
+[[cv:Франци]]
+[[ceb:Pransiya]]
+[[cs:Francie]]
+[[co:Francia]]
+[[cy:Ffrainc]]
+[[da:Frankrig]]
+[[pdc:Frankreich]]
+[[de:Frankreich]]
+[[dv:ފަރަންސޭސިވިލާތް]]
+[[nv:Dáághahii Dinéʼiʼ Bikéyah]]
+[[dsb:Francojska]]
+[[dz:ཕརཱནསི་]]
+[[et:Prantsusmaa]]
+[[el:Γαλλία]]
+[[eml:Franza]]
+[[myv:Франция Мастор]]
+[[es:Francia]]
+[[eo:Francio]]
+[[ext:Fráncia]]
+[[eu:Frantzia]]
+[[ee:France]]
+[[fa:فرانسه]]
+[[hif:France]]
+[[fo:Frakland]]
+[[fr:France]]
+[[fy:Frankryk]]
+[[ff:Faransi]]
+[[fur:France]]
+[[ga:An Fhrainc]]
+[[gv:Yn Rank]]
+[[gd:An Fhraing]]
+[[gl:Francia - France]]
+[[gan:法國]]
+[[gu:ફ્રાન્સ]]
+[[got:𐍆𐍂𐌰𐌲𐌺𐌰𐍂𐌴𐌹𐌺𐌹]]
+[[hak:Fap-koet]]
+[[xal:Пранцсын Орн Нутг]]
+[[ko:프랑스]]
+[[ha:Faransa]]
+[[haw:Palani]]
+[[hy:Ֆրանսիա]]
+[[hi:फ़्रांस]]
+[[hsb:Francoska]]
+[[hr:Francuska]]
+[[io:Francia]]
+[[ilo:Fransia]]
+[[bpy:ফ্রান্স]]
+[[id:Perancis]]
+[[ia:Francia]]
+[[ie:Francia]]
+[[os:Франц]]
+[[is:Frakkland]]
+[[it:Francia]]
+[[he:צרפת]]
+[[jv:Prancis]]
+[[kl:Frankrig]]
+[[kn:ಫ್ರಾನ್ಸ್]]
+[[pam:France]]
+[[ka:საფრანგეთი]]
+[[ks:फ्रांस]]
+[[csb:Francëjô]]
+[[kk:Франция]]
+[[kw:Pow Frynk]]
+[[rw:Ubufaransa]]
+[[ky:Франция]]
+[[sw:Ufaransa]]
+[[kv:Франция]]
+[[kg:Fwalansa]]
+[[ht:Frans]]
+[[ku:Fransa]]
+[[lad:Fransia]]
+[[lo:ປະເທດຝະລັ່ງ]]
+[[la:Francia]]
+[[lv:Francija]]
+[[lb:Frankräich]]
+[[lt:Prancūzija]]
+[[lij:Fransa]]
+[[li:Frankriek]]
+[[ln:Falansia]]
+[[jbo:fasygu'e]]
+[[lmo:Frància]]
+[[hu:Franciaország]]
+[[mk:Франција]]
+[[mg:Frantsa]]
+[[ml:ഫ്രാൻസ്]]
+[[mt:Franza]]
+[[mi:Wīwī]]
+[[mr:फ्रांस]]
+[[arz:فرنسا]]
+[[ms:Perancis]]
+[[cdo:Huák-guók]]
+[[mwl:Fráncia]]
+[[mdf:Кранцмастор]]
+[[mn:Франц]]
+[[my:ပြင်သစ်နိုင်ငံ]]
+[[nah:Francia]]
+[[na:France]]
+[[nl:Frankrijk]]
+[[nds-nl:Frankriek]]
+[[ne:फ्रान्स]]
+[[ja:フランス]]
+[[nap:Franza]]
+[[ce:Франце]]
+[[pih:France]]
+[[no:Frankrike]]
+[[nn:Frankrike]]
+[[nrm:France]]
+[[nov:Fransia]]
+[[oc:França]]
+[[mhr:Франций]]
+[[uz:Fransiya]]
+[[pnb:فرانس]]
+[[pap:Fransia]]
+[[km:បារាំង]]
+[[pms:Fransa]]
+[[tpi:Pranis]]
+[[nds:Frankriek]]
+[[pl:Francja]]
+[[pnt:Γαλλία]]
+[[pt:França]]
+[[kaa:Frantsiya]]
+[[crh:Frenkistan]]
+[[ty:Farāni]]
+[[ksh:Frangkrisch]]
+[[ro:Franţa]]
+[[rmy:Franchiya]]
+[[rm:Frantscha]]
+[[qu:Phransya]]
+[[ru:Франция]]
+[[sah:Франция]]
+[[se:Fráŋkriika]]
+[[sm:Farani]]
+[[sa:फ्रांस]]
+[[sc:Frantza]]
+[[sco:Fraunce]]
+[[stq:Frankriek]]
+[[st:Fora]]
+[[sq:Franca]]
+[[scn:Francia]]
+[[simple:France]]
+[[sk:Francúzsko]]
+[[cu:Франкі́ꙗ]]
+[[sl:Francija]]
+[[szl:Francyjo]]
+[[so:Faransiiska]]
+[[ckb:فەڕەنسا]]
+[[srn:Franskondre]]
+[[sr:Француска]]
+[[sh:Francuska]]
+[[su:Perancis]]
+[[fi:Ranska]]
+[[sv:Frankrike]]
+[[tl:Pransya]]
+[[ta:பிரான்சு]]
+[[kab:Fransa]]
+[[tt:Франция]]
+[[te:ఫ్రాన్స్]]
+[[tet:Fransa]]
+[[th:ประเทศฝรั่งเศส]]
+[[tg:Фаронса]]
+[[tr:Fransa]]
+[[tk:Fransiýa]]
+[[udm:Франция]]
+[[uk:Франція]]
+[[ur:فرانس]]
+[[ug:فرانسىيە]]
+[[za:Fazgoz]]
+[[vec:Fransa]]
+[[vi:Pháp]]
+[[vo:Fransän]]
+[[fiu-vro:Prantsusmaa]]
+[[wa:France]]
+[[zh-classical:法國]]
+[[vls:Vrankryk]]
+[[war:Fransya]]
+[[wo:Faraas]]
+[[wuu:法国]]
+[[yi:פראנקרייך]]
+[[yo:Fransi]]
+[[zh-yue:法國]]
+[[diq:Fransa]]
+[[zea:Frankriek]]
+[[bat-smg:Prancūzėjė]]
+[[zh:法国]]
