@@ -88,6 +88,58 @@ public class HtmlParserTest extends TestCase {
             "<html><body><div title='Surf &#x26; Turf'>Reef &#x26; Beef</div></body></html>");
     }
 
+    // http://www.w3.org/People/Raggett/tidy/
+    public void testExamplesFromTidy() {
+        testParser("<h1>heading\n   <h2>subheading</h3>", "<html><body>"
+            + "<h1>heading\n"
+            + "   </h1>"
+            + "<h2>subheading</h2>"
+            + "</body></html>");
+        // FIXME: it does not respect styles embedding
+        testParser(
+            "<p>here is a para <b>bold <i>bold italic</b> bold?</i> normal",
+            ""
+                + "<html><body>"
+                + "<p>here is a para "
+                + "<b>bold "
+                + "<i>bold italic</i></b>"
+                + " bold? normal</p>"
+                + "</body></html>");
+
+        testParser(
+            "<h1><i>italic heading</h1>\n   <p>new paragraph",
+            "<html><body><h1><i>italic heading</i></h1>\n"
+                + "   <p>new paragraph</p></body></html>");
+        testParser(
+            "<h1><i>italic heading\n   <p>new paragraph",
+            "<html><body><h1><i>italic heading\n"
+                + "   </i></h1><p>new paragraph</p></body></html>");
+
+        testParser("<i><h1>heading</h1></i>\n"
+            + "   <p>new paragraph <b>bold text\n"
+            + "   <p>some more bold text", ""
+            + "<html><body><i></i><h1>heading</h1>\n"
+            + "   <p>new paragraph <b>bold text\n"
+            + "   </b></p><p>some more bold text</p></body></html>");
+        testParser(
+            "<h1><hr>heading</h1>\n   <h2>sub<hr>heading</h2>",
+            "<html><body><h1></h1><hr></hr>heading\n"
+                + "   <h2>sub</h2><hr></hr>heading</body></html>");
+
+        // FIXME: avoid recursive embedding for "a".
+        // Could be changed at the level of context-sensitive tokenizers.
+        testParser("<a href=\"#refs\">References<a>", ""
+            + "<html><body>"
+            + "<a href='#refs'>References<a></a></a>"
+            + "</body></html>");
+
+        testParser("<body>\n"
+            + "   <li>1st list item\n"
+            + "   <li>2nd list item", "<html><body>\n"
+            + "   <ul><li>1st list item\n"
+            + "   </li><li>2nd list item</li></ul></body></html>");
+    }
+
     public void testFormSelect() {
         testParser("<select>a", ""
             + "<html><body><select></select>a</body></html>");

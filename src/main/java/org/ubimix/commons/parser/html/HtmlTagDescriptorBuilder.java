@@ -174,6 +174,7 @@ public class HtmlTagDescriptorBuilder extends TagDescriptorBuilder {
 
         setType(BLOCK, HtmlTagDictionary.BLOCK_ELEMENTS);
         setType(BLOCK_CONTAINER, HtmlTagDictionary.BLOCK_CONTAINER_ELEMENTS);
+        setType(INLINE_CONTAINER, HtmlTagDictionary.BLOCK_CONTAINER_ELEMENTS);
 
         setType(TABLE, HtmlTagDictionary.TABLE);
         setType(

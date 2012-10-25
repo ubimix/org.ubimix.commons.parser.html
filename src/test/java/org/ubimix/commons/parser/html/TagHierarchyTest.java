@@ -174,7 +174,7 @@ public class TagHierarchyTest extends TestCase {
             }
 
             protected void print(String string) {
-                System.out.print(string);
+                // System.out.print(string);
             }
 
             protected void println(String string) {

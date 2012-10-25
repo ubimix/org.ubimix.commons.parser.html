@@ -277,11 +277,9 @@ public class HtmlParser extends AbstractXmlParser {
     protected void flushText() {
         if (fBuf.length() > 0) {
             String str = fBuf.toString();
-            if (str.trim().length() > 0) {
-                fTagBalancer.begin(HtmlTagDictionary.TOKEN_TEXT);
-                fListener.onText(str);
-                fTagBalancer.end(HtmlTagDictionary.TOKEN_TEXT);
-            }
+            fTagBalancer.begin(HtmlTagDictionary.TOKEN_TEXT);
+            fListener.onText(str);
+            fTagBalancer.end(HtmlTagDictionary.TOKEN_TEXT);
             fBuf.delete(0, fBuf.length());
         }
     }
@@ -411,7 +409,9 @@ public class HtmlParser extends AbstractXmlParser {
             fTagBalancer.begin(tagName);
         }
         if (token.isClose()) {
-            fTagBalancer.end(tagName);
+            if (!HtmlTagDictionary.HTML.equals(tagName)) {
+                fTagBalancer.end(tagName);
+            }
         }
         fTagToken = null;
     }

@@ -635,6 +635,7 @@ public class HtmlTagDictionary {
 
         BLOCK_CONTAINER_ELEMENTS.addAll(Arrays.asList(
         // New (HTML5)
+            ARTICLE,
             FIGURE,
             FOOTER,
             HEADER,
