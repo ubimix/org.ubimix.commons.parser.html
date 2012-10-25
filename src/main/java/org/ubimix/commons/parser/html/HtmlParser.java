@@ -197,7 +197,7 @@ public class HtmlParser extends AbstractXmlParser {
                 return;
             }
             Map<String, String> attributes = null;
-            if (fTagToken != null && tag.equals(fTagToken.getName())) {
+            if (fTagToken != null && tag.equals(getTagName(fTagToken))) {
                 attributes = fTagToken.getAttributesAsMap();
             }
             if (attributes == null) {
@@ -232,7 +232,7 @@ public class HtmlParser extends AbstractXmlParser {
     private TagToken fTagToken;
 
     public HtmlParser() {
-        this(HtmlTagDescriptor.getInstance());
+        this(HtmlTagDescriptorBuilder.getInstance());
     }
 
     public HtmlParser(ITokenizer tokenizer) {
@@ -330,6 +330,14 @@ public class HtmlParser extends AbstractXmlParser {
         return tokenizer;
     }
 
+    private String getTagName(TagToken tagToken) {
+        if (tagToken == null) {
+            return null;
+        }
+        String tagName = tagToken.getName();
+        return tagName.toLowerCase();
+    }
+
     public TagToken getTagToken() {
         return fTagToken;
     }
@@ -398,7 +406,7 @@ public class HtmlParser extends AbstractXmlParser {
     protected void reportTag(TagToken token) {
         flushText();
         fTagToken = token;
-        String tagName = token.getName();
+        String tagName = getTagName(token);
         if (token.isOpen()) {
             fTagBalancer.begin(tagName);
         }

@@ -7,6 +7,7 @@ import junit.framework.TestCase;
 
 import org.ubimix.commons.parser.balancer.TagBalancer;
 import org.ubimix.commons.parser.balancer.TagBalancer.IListener;
+import org.ubimix.commons.parser.balancer.TagDescriptor;
 
 /**
  * @author kotelnikov
@@ -153,7 +154,8 @@ public class TagHierarchyTest extends TestCase {
         int tagCount = strs.length - 1;
         String control = strs[tagCount];
 
-        HtmlTagDescriptor descr = new HtmlTagDescriptor();
+        HtmlTagDescriptorBuilder descrBuilder = new HtmlTagDescriptorBuilder();
+        TagDescriptor descr = descrBuilder.build();
         final StringBuilder buf = new StringBuilder();
         TagBalancer balancer = new TagBalancer(descr, new IListener() {
 

@@ -14,14 +14,14 @@ public class TagBalancer {
 
     protected static class TagContext {
 
-        private TagDescriptor fDescriptor;
+        private ITagDescriptor fDescriptor;
 
         private TagBalancer.TagContext fParent;
 
         private String fTag;
 
         public TagContext(
-            TagDescriptor descriptor,
+            ITagDescriptor descriptor,
             TagBalancer.TagContext parent,
             String tag) {
             fParent = parent;
@@ -85,11 +85,11 @@ public class TagBalancer {
 
     private TagBalancer.TagContext fContext;
 
-    private TagDescriptor fDescriptor;
+    private ITagDescriptor fDescriptor;
 
     private IListener fListener;
 
-    public TagBalancer(TagDescriptor descriptor, IListener listener) {
+    public TagBalancer(ITagDescriptor descriptor, IListener listener) {
         fListener = listener;
         fDescriptor = descriptor;
     }

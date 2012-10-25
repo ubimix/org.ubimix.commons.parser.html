@@ -1,6 +1,7 @@
 package org.ubimix.commons.parser.balancer;
 
 import java.util.Arrays;
+import java.util.HashSet;
 import java.util.LinkedHashSet;
 import java.util.Set;
 
@@ -43,6 +44,13 @@ public class TagType {
     public TagType(String name, TagType... parentTypes) {
         fName = name;
         setParentTypes(parentTypes);
+    }
+
+    private void addAllTypes(Set<TagType> result) {
+        result.add(this);
+        for (TagType parent : fParentTypes) {
+            parent.addAllTypes(result);
+        }
     }
 
     /**
@@ -126,6 +134,12 @@ public class TagType {
         }
         TagType o = (TagType) obj;
         return fName.equals(o.fName);
+    }
+
+    public Set<TagType> getAllTypes() {
+        Set<TagType> result = new HashSet<TagType>();
+        addAllTypes(result);
+        return result;
     }
 
     /**

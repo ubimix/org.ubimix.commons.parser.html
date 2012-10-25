@@ -3,10 +3,10 @@
  */
 package org.ubimix.commons.parser.html;
 
-import org.ubimix.commons.parser.balancer.TagDescriptor;
-import org.ubimix.commons.parser.balancer.TagType;
-
 import junit.framework.TestCase;
+
+import org.ubimix.commons.parser.balancer.TagDescriptorBuilder;
+import org.ubimix.commons.parser.balancer.TagType;
 
 /**
  * @author kotelnikov
@@ -29,7 +29,7 @@ public class TagDescriptorTest extends TestCase {
         TagType inlineContainer = new TagType("inlineContainer", tag)
             .setContainedTypes(inline);
 
-        TagDescriptor descriptor = new TagDescriptor();
+        TagDescriptorBuilder descriptor = new TagDescriptorBuilder();
         descriptor.setType(block, "p", "div");
         descriptor.setType(blockContainer, "div");
         descriptor.setType(inline, "a", "span", "img");

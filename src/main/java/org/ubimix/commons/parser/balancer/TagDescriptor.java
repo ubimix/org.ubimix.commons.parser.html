@@ -1,8 +1,5 @@
 package org.ubimix.commons.parser.balancer;
 
-import java.util.Collection;
-import java.util.HashMap;
-import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
@@ -11,44 +8,42 @@ import java.util.Set;
  * 
  * @author kotelnikov
  */
-public class TagDescriptor {
+public final class TagDescriptor implements ITagDescriptor {
 
     /**
      * Parent tags.
      */
-    private Map<String, String> fParentTags = new HashMap<String, String>();
+    private Map<String, Set<String>> fChildTags;
 
     /**
-     * Defines mapping between tags and their respective types. Each tag can
-     * have multiple types.
+     * A set of all declared tags.
      */
-    private Map<String, Set<TagType>> fTagTypes = new HashMap<String, Set<TagType>>();
+    private Set<String> fDeclaredTags;
 
     /**
-     * Checks if a parent tag can contain a specified child tag.
-     * 
-     * @param parent parent tag to check
-     * @param tag a child tag to check
-     * @return <code>true</code> if the parent tag can contain the specified
-     *         child tag
+     * Parent tags.
      */
+    private Map<String, String> fParentTags;
+
+    protected TagDescriptor(
+        Map<String, Set<String>> childTags,
+        Set<String> declaredTags,
+        Map<String, String> parentTags) {
+        fChildTags = childTags;
+        fDeclaredTags = declaredTags;
+        fParentTags = parentTags;
+    }
+
+    /**
+     * @see org.ubimix.commons.parser.balancer.ITagDescriptor#accepts(java.lang.String,
+     *      java.lang.String)
+     */
+    @Override
     public boolean accepts(String parent, String tag) {
-        Set<TagType> parentTypes = getTagTypes(parent);
-        if (parentTypes == null || parentTypes.isEmpty()) {
-            return false;
-        }
-        Set<TagType> childTypes = getTagTypes(tag);
-        if (childTypes == null || childTypes.isEmpty()) {
-            return false;
-        }
         boolean result = false;
-        loop: for (TagType parentType : parentTypes) {
-            for (TagType childType : childTypes) {
-                if (parentType.contains(childType)) {
-                    result = true;
-                    break loop;
-                }
-            }
+        Set<String> set = fChildTags.get(parent);
+        if (set != null) {
+            result = set.contains(tag);
         }
         return result;
     }
@@ -59,120 +54,17 @@ public class TagDescriptor {
      * @param tag the tag for which a parent should be returned
      * @return a parent for the given tag
      */
+    @Override
     public String getParentTag(String tag) {
         return fParentTags.get(tag);
     }
 
     /**
-     * Returns a set of types for the specified tag
-     * 
-     * @param tag the tag to check
-     * @return a set of types for the specified tag
+     * @see org.ubimix.commons.parser.balancer.ITagDescriptor#isDeclared(java.lang.String)
      */
-    public Set<TagType> getTagTypes(String tag) {
-        return fTagTypes.get(tag);
-    }
-
-    /**
-     * This method checks if the some types were declared for the specified tag.
-     * 
-     * @param tag the tag to check
-     * @return <code>true</code> if some types were declared for the specified
-     *         tag
-     */
+    @Override
     public boolean isDeclared(String tag) {
-        return fTagTypes.containsKey(tag);
+        return fDeclaredTags.contains(tag);
     }
 
-    /**
-     * Sets a new parent for the specified type.
-     * 
-     * @param parent a tag parent
-     * @param tag the tag to set
-     */
-    public void setParentTag(String parent, String tag) {
-        String t = parent;
-        while (t != null) {
-            if (tag.equals(t)) {
-                throw new IllegalArgumentException(
-                    "A cycle in the tag hierarchy was found. Tag: '"
-                        + tag
-                        + "'. Parent: '"
-                        + parent
-                        + "'.");
-            }
-            t = fParentTags.get(t);
-        }
-        if (!accepts(parent, tag)) {
-            throw new IllegalArgumentException("Tag '"
-                + parent
-                + "' can not contain the '"
-                + tag
-                + "' tag.");
-        }
-        fParentTags.put(tag, parent);
-    }
-
-    /**
-     * Set parents for the specified tag
-     * 
-     * @param parent the parent tag
-     * @param children a collection of children
-     */
-    public void setParentTags(String parent, Iterable<String> children) {
-        for (String child : children) {
-            setParentTag(parent, child);
-        }
-    }
-
-    /**
-     * Sets parent for the specified tags.
-     * 
-     * @param parent the parent tag
-     * @param tags child tags
-     */
-    public void setParentTags(String parent, String... tags) {
-        for (String tag : tags) {
-            setParentTag(parent, tag);
-        }
-    }
-
-    /**
-     * Sets tag types.
-     * 
-     * @param type the type of the tag
-     * @param tags a collection of types for the tag
-     */
-    public void setType(TagType type, Collection<String> tags) {
-        for (String tag : tags) {
-            setType(type, tag);
-        }
-    }
-
-    /**
-     * Sets tag types.
-     * 
-     * @param type the type of the tag
-     * @param tags an array of types for the tag
-     */
-    public void setType(TagType type, String... tags) {
-        for (String tag : tags) {
-            setType(type, tag);
-        }
-    }
-
-    /**
-     * Sets a type for the tag
-     * 
-     * @param type the type to set
-     * @param tag the tag to set
-     */
-    public void setType(TagType type, String tag) {
-        Set<TagType> set = fTagTypes.get(tag);
-        if (set == null) {
-            set = new HashSet<TagType>();
-            fTagTypes.put(tag, set);
-        }
-        set.add(type);
-    }
 }

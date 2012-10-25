@@ -43,10 +43,6 @@ public class HtmlParserTest extends TestCase {
         return listener.toString();
     }
 
-    public void test() {
-        testParser("  a", "<html><body><p>a</p></body></html>");
-    }
-
     public void testAttributes() {
         testAttributeWithEntities("a&#x27;b", "a'b");
         testAttributeWithEntities("a'b", "a'b");
@@ -86,7 +82,7 @@ public class HtmlParserTest extends TestCase {
             "<html><body><div> <a name='top'></a><p id='1'>Hello</p></div></body></html>");
         testParser(
             "foo <b>bar</b> baz",
-            "<html><body><p>foo <b>bar</b> baz</p></body></html>");
+            "<html><body>foo <b>bar</b> baz</body></html>");
         testParser(
             "<div title='Surf &amp; Turf'>Reef &amp; Beef</div>",
             "<html><body><div title='Surf &#x26; Turf'>Reef &#x26; Beef</div></body></html>");
@@ -94,10 +90,10 @@ public class HtmlParserTest extends TestCase {
 
     public void testFormSelect() {
         testParser("<select>a", ""
-            + "<html><body><p><select></select>a</p></body></html>");
+            + "<html><body><select></select>a</body></html>");
         testParser("<option>a", ""
             + "<html><body>"
-            + "<p><select><option>a</option></select></p>"
+            + "<select><option>a</option></select>"
             + "</body></html>");
         testParser(""
             + "<select>\n"
@@ -106,17 +102,17 @@ public class HtmlParserTest extends TestCase {
             + "  <option>c\n"
             + "<p>d", ""
             + "<html><body>"
-            + "<p><select>\n"
+            + "<select>\n"
             + "  <option>a\n"
             + "  </option><option>b\n"
             + "  </option><option>c\n"
-            + "</option></select></p>"
+            + "</option></select>"
             + "<p>d</p>"
             + "</body></html>");
 
         testParser("<option>a<p>b", ""
             + "<html><body>"
-            + "<p><select><option>a</option></select></p>"
+            + "<select><option>a</option></select>"
             + "<p>b</p>"
             + "</body></html>");
         testParser(
@@ -131,12 +127,11 @@ public class HtmlParserTest extends TestCase {
                 + "<p>Three</p>"
                 + "</body></html>");
         testParser("<option>One<option>Two<p>Three", ""
-            + "<html><body><p>"
+            + "<html><body>"
             + "<select>"
             + "<option>One</option>"
             + "<option>Two</option>"
             + "</select>"
-            + "</p>"
             + "<p>Three</p>"
             + "</body></html>");
 
@@ -196,27 +191,27 @@ public class HtmlParserTest extends TestCase {
     public void testScriptsAndStyles() {
         testParser(
             "a<script>b</script>c",
-            "<html><body><p>a<script>b</script>c</p></body></html>");
+            "<html><body>a<script>b</script>c</body></html>");
         testParser(
             "before<script>toto<a href=''>it is not a tag <>> titi",
-            "<html><body><p>before<script>toto&#x3c;a href=''&#x3e;it is not a tag &#x3c;&#x3e;&#x3e; titi</script></p></body></html>");
+            "<html><body>before<script>toto&#x3c;a href=''&#x3e;it is not a tag &#x3c;&#x3e;&#x3e; titi</script></body></html>");
 
         testParser(
             "<script><a>text",
             "<html><head><script>&#x3c;a&#x3e;text</script></head></html>");
         testParser(
             "before<script><a>text",
-            "<html><body><p>before<script>&#x3c;a&#x3e;text</script></p></body></html>");
+            "<html><body>before<script>&#x3c;a&#x3e;text</script></body></html>");
         testParser(
             "<script>toto",
             "<html><head><script>toto</script></head></html>");
         testParser(
             "before<script>toto<a href=''>it is not a tag <>> titi",
-            "<html><body><p>before<script>toto&#x3c;a href=''&#x3e;it is not a tag &#x3c;&#x3e;&#x3e; titi</script></p></body></html>");
+            "<html><body>before<script>toto&#x3c;a href=''&#x3e;it is not a tag &#x3c;&#x3e;&#x3e; titi</script></body></html>");
 
         testParser(
             "before<script>toto[<!-- This is a comment -->] <a href=''>it is not a tag <>> titi",
-            "<html><body><p>before<script>toto[] &#x3c;a href=''&#x3e;it is not a tag &#x3c;&#x3e;&#x3e; titi</script></p></body></html>");
+            "<html><body>before<script>toto[] &#x3c;a href=''&#x3e;it is not a tag &#x3c;&#x3e;&#x3e; titi</script></body></html>");
     }
 
     public void testSerializeDeserialize() {
@@ -256,7 +251,7 @@ public class HtmlParserTest extends TestCase {
             "<div>This is a text",
             "<html><body><div>This is a text</div></body></html>");
         testParser("", "");
-        testParser("<a/>", "<html><body><p><a></a></p></body></html>");
+        testParser("<a/>", "<html><body><a></a></body></html>");
         testParser("    <div />   ", "<html><body><div></div>   </body></html>");
         testParser("<root>"
             + "<a xmlns='foo'><x></x><y></y></a>"
@@ -267,10 +262,10 @@ public class HtmlParserTest extends TestCase {
             "<feed xmlns='http://www.w3.org/2005/Atom'></feed>");
         testParser(
             "<a><b><c><d><e><f>Text</f></e></d></c></b></a>",
-            "<html><body><p><a><b><c><d><e><f>Text</f></e></d></c></b></a></p></body></html>");
+            "<html><body><a><b><c><d><e><f>Text</f></e></d></c></b></a></body></html>");
         testParser(
             "<a><b>Text</b><c>Text</c><d>Text</d><e>Text</e><f>Text</f></a>",
-            "<html><body><p><a><b>Text</b><c>Text</c><d>Text</d><e>Text</e><f>Text</f></a></p></body></html>");
+            "<html><body><a><b>Text</b><c>Text</c><d>Text</d><e>Text</e><f>Text</f></a></body></html>");
         testParser(""
             + "<html>"
             + "<head>"
@@ -280,12 +275,43 @@ public class HtmlParserTest extends TestCase {
             + "<p class='first'>A new paragraph</p>"
             + "</body>"
             + "</html>");
+        testParser("  a", "<html><body>a</body></html>");
+        testParser("a !", "<html><body>a !</body></html>");
+        testParser("a !\n", "<html><body>a !\n</body></html>");
+        testParser(""
+            + "<table id=table1 cellspacing=2px\n"
+            + "    <h1>CONTENT</h1>\n"
+            + "    <td><a href=index.html>1 -> Home Page</a>\n"
+            + "    <td><a href=intro.html>2 -> Introduction</a>", ""
+            + "<html><body>&#x3c;table id=table1 cellspacing=2px\n"
+            + "    <h1>CONTENT</h1>\n"
+            + "    <table><tr>"
+            + "<td><a href='index.html'>1 -&#x3e; Home Page</a>\n"
+            + "    </td>"
+            + "<td><a href='intro.html'>2 -&#x3e; Introduction</a></td>"
+            + "</tr></table>"
+            + "</body></html>");
+        testParser(""
+            + "<table id=table1 cellspacing=2px>\n"
+            + "    <h1>CONTENT</h1>\n"
+            + "    <td><a href=index.html>1 -> Home Page</a>\n"
+            + "    <td><a href=intro.html>2 -> Introduction</a>", ""
+            + "<html><body>"
+            + "<table id='table1' cellspacing='2px'>\n"
+            + "    </table>"
+            + "<h1>CONTENT</h1>\n"
+            + "    <table><tr>"
+            + "<td><a href='index.html'>1 -&#x3e; Home Page</a>\n"
+            + "    </td>"
+            + "<td><a href='intro.html'>2 -&#x3e; Introduction</a></td>"
+            + "</tr></table>"
+            + "</body></html>");
     }
 
     public void testSimpleText() {
-        testParser("cd", "<html><body><p>cd</p></body></html>");
-        testParser("<i>b</i>c", "<html><body><p><i>b</i>c</p></body></html>");
-        testParser("a<s>b</s>c", "<html><body><p>a<s>b</s>c</p></body></html>");
+        testParser("cd", "<html><body>cd</body></html>");
+        testParser("<i>b</i>c", "<html><body><i>b</i>c</body></html>");
+        testParser("a<s>b</s>c", "<html><body>a<s>b</s>c</body></html>");
     }
 
     public void testTables() {

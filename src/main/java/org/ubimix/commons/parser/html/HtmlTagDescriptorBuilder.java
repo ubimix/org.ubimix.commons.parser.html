@@ -3,11 +3,16 @@ package org.ubimix.commons.parser.html;
 import java.util.HashSet;
 
 import org.ubimix.commons.parser.balancer.TagDescriptor;
+import org.ubimix.commons.parser.balancer.TagDescriptorBuilder;
 import org.ubimix.commons.parser.balancer.TagType;
 
-public class HtmlTagDescriptor extends TagDescriptor {
+/**
+ * @author kotelnikov
+ */
+public class HtmlTagDescriptorBuilder extends TagDescriptorBuilder {
 
-    private static TagDescriptor fInstance = new HtmlTagDescriptor();
+    private static TagDescriptor fInstance = new HtmlTagDescriptorBuilder()
+        .build();
 
     public static TagDescriptor getInstance() {
         return fInstance;
@@ -70,10 +75,10 @@ public class HtmlTagDescriptor extends TagDescriptor {
 
     public TagType TEXT = new TagType("text");
 
-    public HtmlTagDescriptor() {
+    public HtmlTagDescriptorBuilder() {
         // ----------------------------------------------------------------
         // Define tag types
-        HTML.setContainedTypes(HEAD, BODY);
+        HTML.setContainedTypes(SPACE, HEAD, BODY);
         HEAD.setContainedTypes(SPACE, HEAD_ELEMENT);
 
         BODY.setParentTypes(BLOCK_CONTAINER, INLINE_CONTAINER);
@@ -201,8 +206,8 @@ public class HtmlTagDescriptor extends TagDescriptor {
             HtmlTagDictionary.SCRIPT,
             HtmlTagDictionary.STYLE);
 
-        setParentTags(HtmlTagDictionary.P, HtmlTagDictionary.TOKEN_TEXT);
-        setParentTags(HtmlTagDictionary.P, HtmlTagDictionary.INLINE_ELEMENTS);
+        setParentTags(HtmlTagDictionary.BODY, HtmlTagDictionary.TOKEN_TEXT);
+        setParentTags(HtmlTagDictionary.BODY, HtmlTagDictionary.INLINE_ELEMENTS);
         setParentTags(
             HtmlTagDictionary.HTML,
             HtmlTagDictionary.HEAD,
