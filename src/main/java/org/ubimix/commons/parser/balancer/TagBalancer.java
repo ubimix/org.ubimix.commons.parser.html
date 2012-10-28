@@ -105,14 +105,8 @@ public class TagBalancer {
                     .getTargetOpeningContext(tag) : null;
             }
         }
-        if (targetContext == null) {
-            // No parent content was found. Reset the stack.
-            finish();
-        }
-        if (targetContext != null) {
-            while (targetContext != null && fContext != targetContext) {
-                pop();
-            }
+        while (fContext != targetContext) {
+            pop();
         }
         push(tag);
     }

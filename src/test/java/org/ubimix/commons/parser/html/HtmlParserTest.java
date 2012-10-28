@@ -229,6 +229,14 @@ public class HtmlParserTest extends TestCase {
             + "</html>");
     }
 
+    public void testLists() {
+        testParser("<ul><li>A</li><ul><li>B", ""
+            + "<html><body>"
+            + "<ul><li>A</li></ul>"
+            + "<ul><li>B</li></ul>"
+            + "</body></html>");
+    }
+
     private void testParser(String str) {
         testParser(str, str);
     }
@@ -267,6 +275,11 @@ public class HtmlParserTest extends TestCase {
     }
 
     public void testSerializeDeserialize() {
+        testParser("<p><ul><li>Foo", ""
+            + "<html><body>"
+            + "<p></p>"
+            + "<ul><li>Foo</li></ul>"
+            + "</body></html>");
         testParser("  \n"
             + "  <div>\n"
             + "  <p> This is    \n"
