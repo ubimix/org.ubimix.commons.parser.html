@@ -132,7 +132,6 @@ public class HtmlTagDescriptorBuilder extends TagDescriptorBuilder {
             HtmlTagDictionary.STYLE);
 
         setType(INLINE, HtmlTagDictionary.INLINE_ELEMENTS);
-        setType(INLINE, HtmlTagDictionary.SCRIPT);
 
         setType(TEXT, HtmlTagDictionary.TOKEN_TEXT);
         setType(
@@ -141,23 +140,7 @@ public class HtmlTagDescriptorBuilder extends TagDescriptorBuilder {
             HtmlTagDictionary.TOKEN_EOL);
 
         setType(BLOCK, HtmlTagDictionary.SCRIPT);
-        setType(INLINE_CONTAINER, HtmlTagDictionary.HEADERS);
-        setType(
-            INLINE_CONTAINER,
-            HtmlTagDictionary.BLOCKQUOTE,
-            HtmlTagDictionary.DIV,
-            HtmlTagDictionary.P,
-            HtmlTagDictionary.PRE);
-        setType(
-            INLINE_CONTAINER,
-            HtmlTagDictionary.A,
-            HtmlTagDictionary.B,
-            HtmlTagDictionary.EM,
-            HtmlTagDictionary.STRONG,
-            HtmlTagDictionary.I,
-            HtmlTagDictionary.SPAN,
-            HtmlTagDictionary.SUB,
-            HtmlTagDictionary.SUP);
+        setType(INLINE_CONTAINER, HtmlTagDictionary.INLINE_CONTAINERS);
 
         // Form elements
         setType(FORM_INNER, HtmlTagDictionary.OPTION);
@@ -199,6 +182,8 @@ public class HtmlTagDescriptorBuilder extends TagDescriptorBuilder {
 
         // ----------------------------------------------------------------
         // Default tag parents
+        setParentTags(HtmlTagDictionary.BODY, HtmlTagDictionary.TOKEN_TEXT);
+        setParentTags(HtmlTagDictionary.BODY, HtmlTagDictionary.INLINE_ELEMENTS);
         setParentTags(
             HtmlTagDictionary.HEAD,
             HtmlTagDictionary.META,
@@ -206,9 +191,6 @@ public class HtmlTagDescriptorBuilder extends TagDescriptorBuilder {
             HtmlTagDictionary.TITLE,
             HtmlTagDictionary.SCRIPT,
             HtmlTagDictionary.STYLE);
-
-        setParentTags(HtmlTagDictionary.BODY, HtmlTagDictionary.TOKEN_TEXT);
-        setParentTags(HtmlTagDictionary.BODY, HtmlTagDictionary.INLINE_ELEMENTS);
         setParentTags(
             HtmlTagDictionary.HTML,
             HtmlTagDictionary.HEAD,

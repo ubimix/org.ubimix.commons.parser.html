@@ -264,6 +264,8 @@ public class HtmlTagDictionary {
     /** Defines an image */
     public static final String IMG = "img";
 
+    public static final List<String> INLINE_CONTAINERS = new ArrayList<String>();
+
     public static final List<String> INLINE_ELEMENTS = new ArrayList<String>();
 
     /** Defines an input control */
@@ -271,6 +273,15 @@ public class HtmlTagDictionary {
 
     /** Defines a text that has been inserted into a document */
     public static final String INS = "ins";
+
+    /**
+     * Isindex could either appear in the document head or in the body, but only
+     * once in a document. ISINDEX existed in HTML Tags; standardized in HTML
+     * 2.0; deprecated in HTML 4.0 Transitional; invalid in HTML 4.0 Strict.
+     * 
+     * @see http://en.wikipedia.org/wiki/HTML_element#Inline_elements
+     */
+    public static final String ISINDEX = "isindex";
 
     /** Defines keyboard input */
     public static final String KBD = "kbd";
@@ -633,7 +644,7 @@ public class HtmlTagDictionary {
             UL,
             TABLE));
 
-        BLOCK_CONTAINER_ELEMENTS.addAll(Arrays.asList(
+        BLOCK_CONTAINER_ELEMENTS.addAll(Arrays.asList(FORM,
         // New (HTML5)
             ARTICLE,
             FIGURE,
@@ -667,18 +678,55 @@ public class HtmlTagDictionary {
         EMPTY_ELEMENTS.addAll(Arrays.asList(HR, IMG, BR));
 
         INLINE_ELEMENTS.addAll(Arrays.asList(
-            A,
-            B,
-            BR,
+            /** General **/
+            ABBR,
+            ACRONYM /* deprecated */,
+            DFN,
             EM,
             STRONG,
+
+            /** Computer phrase elements **/
+            CODE,
+            SAMP,
+            KBD,
+            VAR,
+
+            /** Presentation **/
+            B,
             I,
-            IMG,
+            U /* Deprecated */,
+            SMALL,
+            S,
+            BIG,
+            STRIKE,
+            TT,
+            FONT /* Deprecated */,
+
+            /** Others */
             SPAN,
+            BR,
+            BDO,
+            CITE,
+            DEL,
+            INS,
+            Q,
+            SCRIPT,
             SUB,
             SUP,
 
-            /* HTML 5 */
+            /** Images and objects **/
+            APPLET,
+            AREA,
+            EMBED,
+            IMG,
+            MAP,
+            OBJECT,
+            PARAM,
+
+            /** References */
+            A,
+
+            /** HTML 5 **/
             AUDIO,
             MARK,
             PROGRESS,
@@ -688,11 +736,40 @@ public class HtmlTagDictionary {
             VIDEO, /* ? */
             WBR,
 
-            /* Form elements */
+            /** Form elements **/
             BUTTON,
+            FORM,
+            FIELDSET,
             INPUT,
+            ISINDEX /* Deprecated */,
+            LABEL,
+            LEGEND,
+            // OPTION,
+            // OPTGROUP,
             SELECT,
             TEXTAREA));
+
+        INLINE_CONTAINERS.addAll(INLINE_ELEMENTS);
+        INLINE_CONTAINERS.removeAll(Arrays.asList(
+        /** Images and objects **/
+        APPLET,
+        // AREA,
+        // EMBED,
+            IMG,
+            // MAP,
+            OBJECT,
+            // PARAM,
+
+            INPUT,
+            ISINDEX /* Deprecated */,
+            OPTION,
+            OPTGROUP,
+            SELECT,
+            TEXTAREA));
+        INLINE_CONTAINERS.addAll(HEADERS);
+        INLINE_CONTAINERS.addAll(Arrays.asList(P));
+        INLINE_CONTAINERS.addAll(BLOCK_CONTAINER_ELEMENTS);
+        INLINE_CONTAINERS.removeAll(NON_CONTENT_ELEMENTS);
 
         ALL_ATTRIBUTES.addAll(Arrays.asList(
             ATTR_ALIGN,
