@@ -899,7 +899,8 @@ public class HtmlTagDictionary {
     }
 
     public static boolean isImportantAttribute(String name) {
-        return ATTR_TITLE.equals(name)
+        return ATTR_ID.equals(name)
+            || ATTR_TITLE.equals(name)
             || ATTR_SRC.equals(name)
             || ATTR_HREF.equals(name);
     }
